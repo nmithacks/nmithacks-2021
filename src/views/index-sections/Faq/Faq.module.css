@@ -1,0 +1,33 @@
+.mt {
+  margin-top: -33px;
+  padding: 10px 10px 0 10px;
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  .mlh {
+    max-width: 150px;
+  }
+}
+
+.under {
+  width: 50px;
+  height: 5px;
+  border-radius: 25px;
+  background-color: #3D2C8D;
+  position: relative;
+  top: -20px;
+}
