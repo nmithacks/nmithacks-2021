@@ -34,14 +34,14 @@ const Mentors = () => {
     <div
       className={styles.sectionMentors}
       style={{
-        background: "#3D2C8D"
+        background: "#1C2C30"
       }}
       id="Mentors-section"
     >
       <Container className=" pt-5">
         <p
           className={["section-bounties-header h1 ", styles.title].join(" ")}
-          style={{ color: "white" }}
+          style={{ color: "#7AF6D1" }}
         >
           Teams
         </p>

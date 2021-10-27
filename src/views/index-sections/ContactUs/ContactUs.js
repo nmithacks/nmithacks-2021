@@ -3,7 +3,8 @@ import nmitLogo from "../../../assets/img/nitte_nmit_logo.png";
 import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 import styles from "./Contact.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import './IconsLib/IconLib'
+//import '../../../../node_modules/@fortawesome/react-fontawesome'
 
 
  
@@ -14,9 +15,10 @@ const ContactUs = () => {
       className="section section-contactUs"
       data-background-color="black"
       id="contactUs-section"
+      style={ { backgroundColor:' #1C2C30 '}}
     >
       <Container>
-        <p className={["section-about-header h1", styles.title].join(" ")}>
+        <p className={["section-about-header h1", styles.title].join(" ")} style={{ color:'#7AF6D1' }}>
           Contact Us
         </p>
         <div className={styles.under}></div>
@@ -36,7 +38,7 @@ const ContactUs = () => {
                   className="img-fluid"
                   src={nmitLogo}
                   alt="nmit logo"
-                  // style={{ width: "479px", height: "76px" }}
+
                 ></img>
                 <br></br>
                 <p className={["pt-4", styles.text].join(" ")}>
@@ -53,7 +55,7 @@ const ContactUs = () => {
               </span>
               <br></br>
               <div className="pt-4">
-                <p>
+                {/* <p>
                   <strong>Some Name :</strong> &nbsp;
                   <a href="tel:9992288116">Number</a>
                 </p>
@@ -61,7 +63,7 @@ const ContactUs = () => {
                   {" "}
                   <strong>Some Name : </strong> &nbsp;
                   <a href="tel:9964217178">Number</a>
-                </p>
+                </p> */}
               </div>
             </div>
           </Col>
@@ -102,14 +104,16 @@ const ContactUs = () => {
         >
           <div className="" style={{ margin: "auto 1%" }}>
             <Button
-              className="btn-neutral btn-icon btn-round text-center"
+              className="btn-neutral btn-icon  text-center"
               color="twitter"
-              href="https://twitter.com/HackClubNmit?s=09"
+              href="#"
               id="tooltip86114138"
               size="lg"
               target="_blank"
+              style={{ padding:'10px' }}
             >
-              <i className="fab fa-twitter"></i>
+              {/* <i className="fab fa-twitter" ></i> */}
+              <FontAwesomeIcon style={{ height:'35px' ,width:'35px' }} icon={["fab", "twitter"]} />
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip86114138">
               Follow us
@@ -117,14 +121,15 @@ const ContactUs = () => {
           </div>
           <div className="" style={{ margin: "auto 1%" }}>
             <Button
-              className="btn-neutral btn-icon btn-round text-center"
+              className="btn-neutral btn-icon  text-center"
               color="pink"
-              href="https://www.instagram.com/hackclubnmit/?hl=en"
+              href="#"
               id="tooltip735272548"
               size="lg"
               target="_blank"
+              style={{ padding:'10px' }}
             >
-              <i className="fab fa-instagram"></i>
+              <FontAwesomeIcon style={{ height:'35px' ,width:'35px' }} icon={["fab", "instagram"]} />
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip735272548">
               Like us
@@ -132,24 +137,25 @@ const ContactUs = () => {
           </div>
           <div className="" style={{ margin: "auto 1%" }}>
             <Button
-              className="btn-neutral btn-icon btn-round text-center"
-              color="#3578E5"
-              href="https://www.facebook.com/Hack-Club-NMIT-105853897655797/"
+              className="btn-neutral btn-icon  text-center"
+              color="blue"
+              href="#"
               id="tooltip352725"
               size="lg"
               target="_blank"
+              style={{ padding:'10px' }}
             >
-              <i className="fab fa-facebook" style={{ color: "#29a0da" }}></i>
+              <FontAwesomeIcon style={{ height:'35px' ,width:'35px' }} icon={["fab", "facebook"]} />
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip352725">
               Follow Us
             </UncontrolledTooltip>
           </div>
-          <div className="" style={{ margin: "auto 1%" }}>
+          {/* <div className="" style={{ margin: "auto 1%" }}>
             <Button
               className="btn-neutral btn-icon btn-round text-center"
               color="#29a0da"
-              href="https://t.me/hackbout"
+              href="#"
               id="tooltip735272532"
               size="lg"
               target="_blank"
@@ -159,7 +165,7 @@ const ContactUs = () => {
             <UncontrolledTooltip delay={0} target="tooltip735272532">
               Join Us
             </UncontrolledTooltip>
-          </div>
+          </div> */}
         </div>
         <div
           style={{ textAlign: "center", marginTop: "30px", fontSize: "17px" }}

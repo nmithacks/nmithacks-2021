@@ -22,14 +22,14 @@ const Tracks = (props) => {
     <div
       className={styles.sectionTracks}
       style={{
-        background: "#3D2C8D"
+        background: "#1C2C30"
       }}
       id="tracks-section"
     >
       <Container className="">
         <p
           className={["section-tracks-header h1", styles.title].join(" ")}
-          style={{ color: "antiquewhite" }}
+          style={{ color: " #A2F6DD" }}
         >
           Tracks
         </p>
@@ -55,7 +55,7 @@ const Tracks = (props) => {
             </Card> */}
             <div className={styles.flip}>
               <div className={styles.front} >
-                {/* <h1>  IoT </h1> */}
+                <h1>  Blockchain </h1>
               </div>
               <div className={styles.back}>
                 <h2>  IoT  </h2>
@@ -66,6 +66,7 @@ const Tracks = (props) => {
           <Col>
             <div className={styles.flip}>
               <div className={styles.front} >
+              <h1>  AI & ML </h1>
               </div>
               <div className={styles.back}>
                 <h2> AI & ML  </h2>
@@ -130,7 +131,7 @@ const Tracks = (props) => {
           <Col>
           <div className={styles.flip}>
               <div className={styles.front} >
-                <h1>  IoT </h1>
+                <h1>  Open Inovation </h1>
               </div>
               <div className={styles.back}>
                 <h2>  IoT  </h2>

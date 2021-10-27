@@ -11,7 +11,7 @@ const Bounties = () => {
   return (
     <div className=" section-sponsors pt-5" id="prizes-section">
       <Container className=" pt-5">
-        <p className={["section-bounties-header h1 ", styles.title].join(" ")}>
+        <p className={["section-bounties-header h1 ", styles.title].join(" ")} style={{ color:'#1C2C30' }}>
           Prizes
         </p>
         <div className={styles.under}></div>

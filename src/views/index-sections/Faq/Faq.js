@@ -15,7 +15,7 @@ const Faq = () => {
       style={{ background: "#ffffff" }}
     >
       <Container className=" mt-5">
-        <p className={["section-about-header h1", styles.title].join(" ")}>
+        <p className={["section-about-header h1", styles.title].join(" ")} style={{ color: "#1C2C30" }}>
           FAQ's
         </p>
         <div className={styles.under}></div>

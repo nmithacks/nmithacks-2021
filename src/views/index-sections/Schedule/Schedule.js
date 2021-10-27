@@ -22,7 +22,7 @@ const Schedule = () => {
       id="schedule-section"
     >
       <Container className=" mt-5">
-        <p className={["section-bounties-header h1 ", styles.title].join(" ")}>
+        <p className={["section-bounties-header h1 ", styles.title].join(" ")} style={{ color:' #1C2C30' }}>
           Schedule
         </p>
         <div className={styles.under}></div>
@@ -45,10 +45,10 @@ const Schedule = () => {
                     e.preventDefault();
                     setPills("1");
                   }}
-                  style={{ backgroundColor:'#3D2C8D' }}
+                  style={{ backgroundColor:' #1C2C30' }}
                 >
-                  <div>Day</div>
-                  <div className="h1">1</div>
+                  <div style={{ color:' #A2F6DD' }}>Day</div>
+                  <div className="h1" style={{ color:' #A2F6DD' }}>1</div>
                 </NavLink>
               </NavItem>
             </Nav>
@@ -68,10 +68,10 @@ const Schedule = () => {
                     e.preventDefault();
                     setPills("2");
                   }}
-                  style={{ backgroundColor:'#3D2C8D' }}
+                  style={{ backgroundColor:' #1C2C30' }}
                 >
-                  <div>Day</div>
-                  <div className="h1">2</div>
+                  <div style={{ color:' #A2F6DD' }}>Day</div>
+                  <div className="h1" style={{ color:' #A2F6DD' }}>2</div>
                 </NavLink>
               </NavItem>
             </Nav>
@@ -85,7 +85,7 @@ const Schedule = () => {
         >
           <TabPane tabId="pills1" className={styles.tab}>
             <h4>
-              <b> 4th March </b>{" "}
+              <b> To be announced </b>{" "}
             </h4>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
@@ -183,7 +183,7 @@ const Schedule = () => {
           <TabPane tabId="pills2" className={styles.tab}>
             <h4>
               {" "}
-              <b>5th March</b>
+              <b>To be announced</b>
             </h4>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">

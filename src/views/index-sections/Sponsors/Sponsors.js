@@ -41,7 +41,7 @@ const Sponsors = () => {
       style={{ background: "#ffffff" }}
     >
       <Container className=" pt-5">
-        <p className={["section-bounties-header h1 ", Styles.title].join(" ")}>
+        <p className={["section-bounties-header h1 ", Styles.title].join(" ")} style={{ color:' #1C2C30' }}>
           Sponsors
         </p>
         <div className={Styles.under}></div>

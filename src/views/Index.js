@@ -2,8 +2,8 @@ import React from "react";
 import AOS from "aos";
 
 // reactstrap components
-// import {
-// } from "reactstrap";
+import {
+} from "reactstrap";
 
 // core components
 import IndexNavbar from "../components/Navbars/IndexNavbar.js";

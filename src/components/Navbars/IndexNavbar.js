@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "../../assets/img/logos/hbLogo1.png";
-import logo1 from '../../assets/img/new.png'
+import logo1 from './Asset-5-grey.svg'
 // import { Link } from "react-router-dom";
 
 // reactstrap components
@@ -60,14 +59,14 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="white" style={{ height: '60px' }}>
+      <Navbar className={"fixed-top " + navbarColor} expand="lg"  style={{ height: '60px', background:' #1C2C30' }}>
         <Container>
           <div className="navbar-translate">
             <NavbarBrand href="" id="navbar-brand">
               <img
                 src={logo1}
                 alt="Hackathon_logo"
-                style={{ height: "70px" }}
+                style={{ height: "40px" ,width:'220px' }}
               ></img>
             </NavbarBrand>
             <button
@@ -97,7 +96,7 @@ function IndexNavbar() {
             className="justify-content-end"
             isOpen={collapseOpen}
             navbar
-            style={{ backgroundColor: "#22B573" }}
+            style={{ backgroundColor: "black" }}
           >
             <Nav navbar>
               <NavItem>
@@ -106,14 +105,14 @@ function IndexNavbar() {
                   onClick={e => {
                     e.preventDefault();
                     document.documentElement.classList.remove("nav-open");
-                    document.querySelector(".header-main").scrollIntoView({
+                    document.querySelector(".page-header").scrollIntoView({
                       behavior: "smooth"
                     });
                   }}
                 >
                   <h5
                     style={{
-                      color: "black",
+                      color: "#A2F6DD",
                       position: "relative",
                       top: "5px"
                     }}
@@ -135,7 +134,7 @@ function IndexNavbar() {
                   }}
                 >
                   <h5
-                    style={{ color: "black", position: "relative", top: "5px" }}
+                    style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
                   >
                     <b>Tracks</b>
                   </h5>
@@ -171,7 +170,7 @@ function IndexNavbar() {
                   }}
                 >
                   <h5
-                    style={{ color: "black", position: "relative", top: "5px" }}
+                    style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
                   >
                     <b>Prizes</b>
                   </h5>
@@ -189,7 +188,7 @@ function IndexNavbar() {
                   }}
                 >
                   <h5
-                    style={{ color: "black", position: "relative", top: "5px" }}
+                    style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
                   >
                     <b>Schedule</b>
                   </h5>
@@ -207,7 +206,7 @@ function IndexNavbar() {
                   }}
                 >
                   <h5
-                    style={{ color: "black", position: "relative", top: "5px" }}
+                    style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
                   >
                     <b>Teams</b>
                   </h5>
@@ -225,7 +224,7 @@ function IndexNavbar() {
                   }}
                 >
                   <h5
-                    style={{ color: "black", position: "relative", top: "5px" }}
+                    style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
                   >
                     <b>Sponsors</b>
                   </h5>
@@ -243,7 +242,7 @@ function IndexNavbar() {
                 }}
               >
                 <h5
-                  style={{ color: "black", position: "relative", top: "5px" }}
+                  style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
                 >
                   <b>FAQ</b>
                 </h5>
@@ -263,76 +262,13 @@ function IndexNavbar() {
                   }}
                 >
                   <h5
-                    style={{ color: "black", position: "relative", top: "5px" }}
+                    style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
                   >
                     <b>Contact Us</b>
                   </h5>
                 </NavLink>
               </NavItem>
-              {/* <UncontrolledDropdown nav>
-                <DropdownToggle
-                  caret
-                  color="default"
-                  href="#pablo"
-                  nav
-                  onClick={e => e.preventDefault()}
-                >
-
-                  <p style={{ color: "black" }}>Sponsors</p>
-                </DropdownToggle>
-                <DropdownMenu>
-                  <DropdownItem to="/index" tag={Link}>
-                    <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
-                    All components
-                  </DropdownItem>
-                  <DropdownItem
-                    href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
-                    target="_blank"
-                  >
-                    <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
-                    <p style={{ color: "black" }}>Contact Us</p>
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown> */}
-              {/* <NavItem>
-                <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
-                  target="_blank"
-                  id="twitter-tooltip"
-                >
-                  <i className="fab fa-twitter"></i>
-                  <p className="d-lg-none d-xl-none">Twitter</p>
-                </NavLink>
-                <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow us on Twitter
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
-                  target="_blank"
-                  id="facebook-tooltip"
-                >
-                  <i className="fab fa-facebook-square"></i>
-                  <p className="d-lg-none d-xl-none">Facebook</p>
-                </NavLink>
-                <UncontrolledTooltip target="#facebook-tooltip">
-                  Like us on Facebook
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
-                  target="_blank"
-                  id="instagram-tooltip"
-                >
-                  <i className="fab fa-instagram"></i>
-                  <p className="d-lg-none d-xl-none">Instagram</p>
-                </NavLink>
-                <UncontrolledTooltip target="#instagram-tooltip">
-                  Follow us on Instagram
-                </UncontrolledTooltip>
-              </NavItem> */}
+              
             </Nav>
           </Collapse>
         </Container>
