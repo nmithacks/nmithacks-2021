@@ -3,29 +3,29 @@ import {
   Container,
   Row,
   Col,
-  Card,
-  CardBody,
-  CardTitle,
-  CardImg,
-  CardText
+  // Card,
+  // CardBody,
+  // CardTitle,
+  // CardImg,
+  // CardText
 } from "reactstrap";
 import mOne from "../../../assets/img/kanirudh.jpg";
-import mTwo from "../../../assets/img/Manav.jpg";
-import mThree from "../../../assets/img/mThree.jpeg";
-import mFour from "../../../assets/img/vasanth.jpg";
-import mFive from "../../../assets/img/karthikeyan.jpg";
-import mSix from "../../../assets/img/himanshu.jpg";
-import mSeven from "../../../assets/img/kalai.PNG";
-import mEight from "../../../assets/img/sneha.jpg";
-import mNine from "../../../assets/img/Swathi.jpg";
-import mTen from "../../../assets/img/chandra.jpg";
-import meleven from "../../../assets/img/rachana.jpg";
-import mTwelve from "../../../assets/img/swayam.jpg";
-import mThiretten from "../../../assets/img/abhitej.jpg";
-import mFourteen from "../../../assets/img/Nagaraja.jpg";
-import mFifteen from "../../../assets/img/Vishwas.jpg";
-import mSixteen from "../../../assets/img/Anand.jpeg";
-import mSeventeen from "../../../assets/img/Kartik.jpg";
+// import mTwo from "../../../assets/img/Manav.jpg";
+// import mThree from "../../../assets/img/mThree.jpeg";
+// import mFour from "../../../assets/img/vasanth.jpg";
+// import mFive from "../../../assets/img/karthikeyan.jpg";
+// import mSix from "../../../assets/img/himanshu.jpg";
+// import mSeven from "../../../assets/img/kalai.PNG";
+// import mEight from "../../../assets/img/sneha.jpg";
+// import mNine from "../../../assets/img/Swathi.jpg";
+// import mTen from "../../../assets/img/chandra.jpg";
+// import meleven from "../../../assets/img/rachana.jpg";
+// import mTwelve from "../../../assets/img/swayam.jpg";
+// import mThiretten from "../../../assets/img/abhitej.jpg";
+// import mFourteen from "../../../assets/img/Nagaraja.jpg";
+// import mFifteen from "../../../assets/img/Vishwas.jpg";
+// import mSixteen from "../../../assets/img/Anand.jpeg";
+// import mSeventeen from "../../../assets/img/Kartik.jpg";
 
 import styles from "./Mentor.module.css";
 

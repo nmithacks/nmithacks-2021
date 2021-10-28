@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
@@ -22,7 +23,7 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
-
+// eslint-disable-next-line
 class GoTop extends React.Component {
   state = {
     intervalId: 0,

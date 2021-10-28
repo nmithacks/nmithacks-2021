@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import { Container, Row, Col, Card } from "reactstrap";
+import React, {  } from "react";
+import { Container, Row, Col,  } from "reactstrap";
 import styles from "./Prizes.module.css";
 import first from "./first.png";
-import image1 from './father-day03.svg'
+// import image1 from './father-day03.svg'
 import second from "./second.png";
 import third from "./third.png";
 //import PrizeCards from "../../../components/Cards/PrizeCards";

@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from "react";
 import logo1 from './Asset-5-grey.svg'
 // import { Link } from "react-router-dom";
@@ -20,7 +21,7 @@ import {
 } from "reactstrap";
 
 function IndexNavbar() {
-  const [navItemColor, setNavbarItemColor] = React.useState("navbar-transparent");
+  // const [navItemColor, setNavbarItemColor] = React.useState("navbar-transparent");
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   React.useEffect(() => {
@@ -30,13 +31,13 @@ function IndexNavbar() {
         document.body.scrollTop > 199
       ) {
         setNavbarColor("");
-        setNavbarItemColor("white");
+        // setNavbarItemColor("white");
       } else if (
         document.documentElement.scrollTop < 200 ||
         document.body.scrollTop < 200
       ) {
         setNavbarColor("navbar-transparent");
-        setNavbarItemColor("black");
+        // setNavbarItemColor("black");
       }
     };
     window.addEventListener("scroll", updateNavbarColor);

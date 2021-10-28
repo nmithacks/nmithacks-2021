@@ -1,21 +1,22 @@
+// eslint-disable-next-line
 import React from "react";
 import {
   Container,
   Row,
   Col,
-  Card,
-  CardTitle,
-  CardText,
-  CardImgOverlay
+  // Card,
+  // CardTitle,
+  // CardText,
+  // CardImgOverlay
 } from "reactstrap";
 
 import styles from "./Tracks.module.css";
-import img1 from "../../../assets/img/ai.png";
-import img2 from "../../../assets/img/bitcoin.png";
-import img3 from "../../../assets/img/idea.png";
-import img4 from "../../../assets/img/hosting.png";
-import img5 from "../../../assets/img/mobility.png";
-import img6 from "../../../assets/img/AR.png";
+// import img1 from "../../../assets/img/ai.png";
+// import img2 from "../../../assets/img/bitcoin.png";
+// import img3 from "../../../assets/img/idea.png";
+// import img4 from "../../../assets/img/hosting.png";
+// import img5 from "../../../assets/img/mobility.png";
+// import img6 from "../../../assets/img/AR.png";
 
 const Tracks = (props) => {
   return (

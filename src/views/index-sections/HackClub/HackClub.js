@@ -1,65 +1,65 @@
 import React from "react";
 import {
   Container,
-  Row,
-  Col,
-  Carousel,
-  CarouselItem,
-  CarouselIndicators
+  // Row,
+  // Col,
+  // Carousel,
+  // CarouselItem,
+  // CarouselIndicators
 } from "reactstrap";
 import styles from "./HackClub.module.css";
-import hackClub from "../../../assets/img/hack-club.svg";
+// import hackClub from "../../../assets/img/hack-club.svg";
 
 const HackClub = () => {
-  const items = [
-    {
-      src: require("../../../assets/img/cp4.jpg")
-    },
-    {
-      src: require("../../../assets/img/cp2.jpg")
-    },
-    {
-      src: require("../../../assets/img/cp3.jpg")
-    },
-    {
-      src: require("../../../assets/img/cp1.jpg")
-    },
-    {
-      src: require("../../../assets/img/cp5.jpg")
-    },
-    {
-      src: require("../../../assets/img/cp6.jpg")
-    },
-    {
-      src: require("../../../assets/img/cp7.jpg")
-    },
-    {
-      src: require("../../../assets/img/cp8.jpg")
-    }
-  ];
+  // const items = [
+  //   {
+  //     src: require("../../../assets/img/cp4.jpg")
+  //   },
+  //   {
+  //     src: require("../../../assets/img/cp2.jpg")
+  //   },
+  //   {
+  //     src: require("../../../assets/img/cp3.jpg")
+  //   },
+  //   {
+  //     src: require("../../../assets/img/cp1.jpg")
+  //   },
+  //   {
+  //     src: require("../../../assets/img/cp5.jpg")
+  //   },
+  //   {
+  //     src: require("../../../assets/img/cp6.jpg")
+  //   },
+  //   {
+  //     src: require("../../../assets/img/cp7.jpg")
+  //   },
+  //   {
+  //     src: require("../../../assets/img/cp8.jpg")
+  //   }
+  // ];
 
-  const [activeIndex, setActiveIndex] = React.useState(0);
-  const [animating, setAnimating] = React.useState(false);
-  const onExiting = () => {
-    setAnimating(true);
-  };
-  const onExited = () => {
-    setAnimating(false);
-  };
-  const next = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  };
-  const previous = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  };
-  const goToIndex = newIndex => {
-    if (animating) return;
-    setActiveIndex(newIndex);
-  };
+  // const [activeIndex, setActiveIndex] = React.useState(0);
+  // const [animating, setAnimating] = React.useState(false);
+  // const onExiting = () => {
+  //   setAnimating(true);
+  // };
+  // const onExited = () => {
+  //   setAnimating(false);
+  // };
+  // const next = () => {
+  //   if (animating) return;
+  //   const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+  //   setActiveIndex(nextIndex);
+  // };
+  // const previous = () => {
+  //   if (animating) return;
+  //   const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+  //   setActiveIndex(nextIndex);
+  // };
+  // const goToIndex = newIndex => {
+  //   if (animating) return;
+  //   setActiveIndex(newIndex);
+  // };
 
   return (
     <div

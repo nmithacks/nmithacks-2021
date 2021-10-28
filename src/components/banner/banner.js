@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from "react";
 import styles from "./banner.module.css";
 

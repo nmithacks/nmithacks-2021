@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Container,
   Row,
@@ -45,6 +44,7 @@ const Schedule = () => {
                     e.preventDefault();
                     setPills("1");
                   }}
+                  // eslint-disable-next-line
                   style={{ backgroundColor:' #1C2C30' }}
                 >
                   <div style={{ color:' #A2F6DD' }}>Day</div>

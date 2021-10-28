@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { Component } from "react";
 import "./Cards.css";
 // import rudy from "./Rudy.jpeg";

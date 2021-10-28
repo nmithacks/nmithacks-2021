@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from "react";
 import AOS from "aos";
 
@@ -24,7 +25,7 @@ import ContactUs from "./index-sections/ContactUs/ContactUs";
 //import Bounties from "./index-sections/Bounties/Bounties";
 //import Workshop from "./index-sections/Workshop/Workshop";
 import Prizes from "./index-sections/Prizes/Prizes";
-import HackClub from "./index-sections/HackClub/HackClub";
+// import HackClub from "./index-sections/HackClub/HackClub";
 //import Team from "./index-sections/Team/Team";
 
 function Index() {
