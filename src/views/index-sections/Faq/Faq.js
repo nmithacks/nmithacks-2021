@@ -3,8 +3,11 @@ import { Container, Row, Col } from "reactstrap";
 // import { Card, CardHeader, CardBody, Collapse } from "reactstrap";
 //import { Accordion, Card } from "react-bootstrap";
 import styles from "./Faq.module.css";
-import { AccordionWrapper, AccordionItem } from 'custom-react-accordion'
-import 'custom-react-accordion/dist/Accordion.css'
+//import { AccordionWrapper, AccordionItem } from 'custom-react-accordion'
+//import 'custom-react-accordion/dist/Accordion.css'
+
+import { AccordionWrapper,AccordionItem } from "./index";
+import './Accordion.css'
 
 const Faq = () => {
   return (
