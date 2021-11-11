@@ -81,15 +81,15 @@ function IndexNavbar() {
             >
               <span
                 className="navbar-toggler-bar top-bar"
-                style={{ background: "black" }}
+                style={{ background: "#A2F6DD" }}
               ></span>
               <span
                 className="navbar-toggler-bar middle-bar"
-                style={{ background: "black" }}
+                style={{ background: "#A2F6DD" }}
               ></span>
               <span
                 className="navbar-toggler-bar bottom-bar"
-                style={{ background: "black" }}
+                style={{ background: "#A2F6DD" }}
               ></span>
             </button>
           </div>

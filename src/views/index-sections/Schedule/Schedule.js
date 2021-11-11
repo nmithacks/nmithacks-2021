@@ -1,10 +1,11 @@
+// eslint-disable-next-line
 import React from "react";
 import {
   Container,
   Row,
   Col,
-  NavItem,
-  NavLink,
+  //NavItem,
+  //NavLink,
   Nav,
   TabContent,
   TabPane
@@ -13,7 +14,7 @@ import {
 import styles from "./Schedule.module.css";
 
 const Schedule = () => {
-  const [pills, setPills] = React.useState("1");
+  const [pills] = React.useState("1"); // setPills removed
   return (
     <div
       className="section section-schedule"
@@ -35,7 +36,7 @@ const Schedule = () => {
               tabs
               
             >
-              <NavItem data-aos="fade-up" >
+              {/* <NavItem data-aos="fade-up" >
                 <NavLink
                   className={pills === "1" ? "active" : ""}
                   style={{ float: "right" }}
@@ -50,7 +51,7 @@ const Schedule = () => {
                   <div style={{ color:' #A2F6DD' }}>Day</div>
                   <div className="h1" style={{ color:' #A2F6DD' }}>1</div>
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Col>
           <Col className="">
@@ -60,7 +61,7 @@ const Schedule = () => {
               role="tablist"
               tabs
             >
-              <NavItem data-aos="fade-up">
+              {/* <NavItem data-aos="fade-up">
                 <NavLink
                   className={pills === "2" ? "active" : ""}
                   href="#pablo"
@@ -73,7 +74,7 @@ const Schedule = () => {
                   <div style={{ color:' #A2F6DD' }}>Day</div>
                   <div className="h1" style={{ color:' #A2F6DD' }}>2</div>
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Col>
         </Row>
@@ -84,10 +85,10 @@ const Schedule = () => {
           data-aos="fade-up"
         >
           <TabPane tabId="pills1" className={styles.tab}>
-            <h4>
+            <h4 className={ styles.large_text }>
               <b> To be announced </b>{" "}
             </h4>
-            <ul className="list-group list-group-flush">
+            {/* <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <div style={{ float: "left" }}>
                   <b>8:30 AM</b>
@@ -114,7 +115,6 @@ const Schedule = () => {
                   <b>Keynote Sessions</b>
                 </div>
               </li>
-
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
@@ -178,14 +178,14 @@ const Schedule = () => {
                   <b>Hacking Continues</b>
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </TabPane>
           <TabPane tabId="pills2" className={styles.tab}>
             <h4>
               {" "}
               <b>To be announced</b>
             </h4>
-            <ul className="list-group list-group-flush">
+            {/* <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
@@ -252,7 +252,6 @@ const Schedule = () => {
                   <b>Top 10 Announcements</b>
                 </div>
               </li>
-
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
@@ -275,7 +274,7 @@ const Schedule = () => {
                   <b style={{ float: "right" }}>Prize Distribution </b>
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </TabPane>
         </TabContent>
       </Container>

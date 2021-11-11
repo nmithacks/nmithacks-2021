@@ -42,13 +42,11 @@
   background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
   radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
-
 .imgBx{
   height : 120px; 
   width : 140px;
   opacity: 1;
 }
-
 .imgBx img{
   margin-top: -105px;
   margin-left: 5px;
@@ -119,6 +117,16 @@
 }
 
 .card2:hover .first::before{
+  content: 'INR 75,000';
+  color: #1C2C30 ;
+}
+
+.card2:hover .second::before{
+  content: 'INR 50,000';
+  color: #1C2C30 ;
+}
+
+.card2:hover .third::before{
   content: 'INR 25,000';
   color: #1C2C30 ;
 }
@@ -186,6 +194,3 @@
   position: relative;
   top: -20px;
 }
-
-
-

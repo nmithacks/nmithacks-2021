@@ -217,6 +217,7 @@
   font-size: 0.9125rem;
   line-height: 160%;
   color: #1C2C30;
+  margin-top: -20px;
 }
 
 .flip > .front h1, .flip > .back h2 {

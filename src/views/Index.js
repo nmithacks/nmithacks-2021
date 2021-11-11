@@ -25,7 +25,7 @@ import ContactUs from "./index-sections/ContactUs/ContactUs";
 //import Bounties from "./index-sections/Bounties/Bounties";
 //import Workshop from "./index-sections/Workshop/Workshop";
 import Prizes from "./index-sections/Prizes/Prizes";
-// import HackClub from "./index-sections/HackClub/HackClub";
+import NmitHacks from "./index-sections/NmitHacks/NmitHacks";
 //import Team from "./index-sections/Team/Team";
 
 function Index() {
@@ -59,9 +59,10 @@ function Index() {
           <Schedule />
           
           <Sponsors />
-          {/* <HackClub /> */}
+         
           {/* <Team /> */}
           <Mentors />
+          <NmitHacks />
           <Faq />
           <ContactUs />
         </div>

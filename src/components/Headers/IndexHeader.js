@@ -1,16 +1,16 @@
 /*eslint-disable*/
 import React from "react";
 import styles from "./logo.module.css";
-import anime from "animejs/lib/anime.es.js";
+//import anime from "animejs/lib/anime.es.js";
 import orphHand from "./logo-greyscale.svg";
-import dev from "../../assets/img/devfolioD.png";
+//import dev from "../../assets/img/devfolioD.png";
 import "./header.css";
-import Banner from "../../components/banner/banner";
+//import Banner from "../../components/banner/banner";
 // reactstrap components
 import { Container, Button } from "reactstrap";
 // core components
 
-import Particles from "react-tsparticles";
+//import Particles from "react-tsparticles";
 
 function IndexHeader() {
   let pageHeader = React.createRef();
@@ -225,14 +225,14 @@ function IndexHeader() {
     }
   });
 
-  const particlesInit = (main) => {
-    console.log(main);
+  // const particlesInit = (main) => {
+  //   console.log(main);
 
-  };
+  // };
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
+  // const particlesLoaded = (container) => {
+  //   console.log(container);
+  // };
 
 
 
@@ -267,7 +267,7 @@ function IndexHeader() {
             >
               A  NMIT CSE Hackathon
             </h3>
-            <div
+            {/* <div
               style={{
                 textAlign: "center",
                 justifyContent: "center",
@@ -299,7 +299,7 @@ function IndexHeader() {
                 </svg>
                 Apply with Devfolio
               </button>
-            </div>
+            </div> */}
           </div>
           <h3
             className={styles.text}
@@ -325,7 +325,7 @@ function IndexHeader() {
             <i class="fas fa-map-marker-alt" style={{ marginRight: "1%" }}></i>{" "}
             <a
               href="https://goo.gl/maps/8wwXNWAup9Mw3puDA"
-              style={{ color: "white", textDecoration: "none" }}
+              style={{ color: "white", textDecoration: "none", backgroundColor:'#1C2C30' }}
             >
               Nitte Meenakshi Institute of Technology, Bangalore
             </a>

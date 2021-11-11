@@ -9,7 +9,7 @@ import {
   // CardImg,
   // CardText
 } from "reactstrap";
-import mOne from "../../../assets/img/kanirudh.jpg";
+//import mOne from "../../../assets/img/kanirudh.jpg";
 // import mTwo from "../../../assets/img/Manav.jpg";
 // import mThree from "../../../assets/img/mThree.jpeg";
 // import mFour from "../../../assets/img/vasanth.jpg";
@@ -46,10 +46,12 @@ const Mentors = () => {
           Teams
         </p>
         <div className={styles.under}></div>
+        <p style={{color:'#7AF6D1',fontSize:'40px',marginTop:'80px',display:'inline'}}>Coming Soon...</p>
 
         <Row style={{ textAlign: "center" }}>
           <Col>
             <div className={ styles.container } data-aos="fade-up">
+              
               {/* <CardImg
                 top
                 width="100%"
@@ -77,31 +79,28 @@ const Mentors = () => {
                   </a>
                 </CardText>
               </CardBody> */}
-              <div className={ styles.card9 }>
+              {/* <div className={ styles.card9 }>
                 <img src={ mOne } alt='blur' className={ styles.background }/>
                   <img src={ mOne } alt='ultra' className={ styles.card_inside } />
                     <figcaption>
                       <h3> name </h3>
                       <div class="icons">
-
                       </div>
                     </figcaption>
-
-                  </div>
+                  </div> */}
                 </div>
               </Col>
               <Col>
-              <div className={ styles.card9 }>
+             
+              {/* <div className={ styles.card9 }>
                 <img src={ mOne } alt='blur' className={ styles.background }/>
                   <img src={ mOne } alt='ultra' className={ styles.card_inside } />
                     <figcaption>
                       <h3> name </h3>
                       <div class="icons">
-
                       </div>
                     </figcaption>
-
-                  </div>
+                  </div> */}
                
                 {/* <Card className={styles.card2} data-aos="fade-up">
                   <CardImg
@@ -135,17 +134,15 @@ const Mentors = () => {
                 </Card> */}
               </Col>
               <Col>
-              <div className={ styles.card9 }>
+              {/* <div className={ styles.card9 }>
                 <img src={ mOne } alt='blur' className={ styles.background }/>
                   <img src={ mOne } alt='ultra' className={ styles.card_inside } />
                     <figcaption>
                       <h3> name </h3>
                       <div class="icons">
-
                       </div>
                     </figcaption>
-
-                  </div>
+                  </div> */}
                 
                 {/* <Card className={styles.card3} data-aos="fade-up">
                   <CardImg

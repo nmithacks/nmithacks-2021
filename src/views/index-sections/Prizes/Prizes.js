@@ -45,7 +45,7 @@ const Bounties = () => {
           <div className={ styles.cont}>
               <div className={ styles.card2 }>
                  <img src={ second } alt='Hey' />
-                <p style ={ { fontSize:'2.5em', padding:'10px' } } className={styles.first} > <span> 2nd Prize </span> </p>
+                <p style ={ { fontSize:'2.5em', padding:'10px' } } className={styles.second} > <span> 2nd Prize </span> </p>
               </div>
             </div>
             {/* <Card className={styles.card1} data-aos="fade-up">
@@ -65,7 +65,7 @@ const Bounties = () => {
           <div className={ styles.cont}>
               <div className={ styles.card2 }>
                  <img src={ third } alt='Hey' />
-                <p style ={ { fontSize:'2.5em', padding:'10px' } } className={styles.first} > <span> 3rd Prize </span> </p>
+                <p style ={ { fontSize:'2.5em', padding:'10px' } } className={styles.third} > <span> 3rd Prize </span> </p>
               </div>
             </div>
             {/* <Card className={styles.card1} data-aos="fade-up">

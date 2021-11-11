@@ -1,3 +1,4 @@
+//ignore-eslint
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
@@ -7,13 +8,19 @@ import { Container, Row, Col } from "reactstrap";
 // import matic from "../../../assets/img/Matic.png";
 // import fold from "../../../assets/img/fold.png";
 // import stickerMule from "../../../assets/img/sticker-mule-logo.png";
-import digitalOcean from "../../../assets/img/digitalOcean-logo.png";
-import girlGeeks from "../../../assets/img/girlGeeks.png";
-import jetBrains from "../../../assets/img/jetbrains_logo.png";
+import comviva from "./comviva.jpg"
+import idp from "./idp.jpg"
+import netalla from "./netalla.jpg"
+import progate from "./progate.jpg"
+import manya from "./manya.jpg"
+import sakhaGlobal from "./sakhaGlobal.jpg"
+//import digitalOcean from "../../../assets/img/digitalOcean-logo.png";
+//import girlGeeks from "../../../assets/img/girlGeeks.png";
+//import jetBrains from "../../../assets/img/jetbrains_logo.png";
 // import wolfram from "../../../assets/img/Wolfram.png";
-import gatsby from "../../../assets/img/gatsby.png";
-import inVision from "../../../assets/img/invision.png";
-import ieee from "../../../assets/img/ieee-cs-logo.png";
+//import gatsby from "../../../assets/img/gatsby.png";
+//import inVision from "../../../assets/img/invision.png";
+//import ieee from "../../../assets/img/ieee-cs-logo.png";
 // import bugsee from "../../../assets/img/bugsee.png";
 // import blkIndia from "../../../assets/img/blockchained-india.png";
 // import tim from "../../../assets/img/creativetim.png";
@@ -42,7 +49,7 @@ const Sponsors = () => {
     >
       <Container className=" pt-5">
         <p className={["section-bounties-header h1 ", Styles.title].join(" ")} style={{ color:' #1C2C30' }}>
-          Sponsors
+          Previous Sponsors
         </p>
         <div className={Styles.under}></div>
 
@@ -234,13 +241,13 @@ const Sponsors = () => {
               sm={true}
             >
               <a
-                href="https://www.digitalocean.com/"
+                href="#pablo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={digitalOcean}
-                  alt="digitalocean-logo"
+                  src={comviva}
+                  alt="comviva-logo"
                   className={Styles.digiOcean}
                 />
               </a>
@@ -251,11 +258,11 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.computer.org/"
+                href="#pablo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={ieee} alt="ieee-logo" className={Styles.ieee} />
+                <img src={idp} alt="ieee-logo" className={Styles.ieee} />
               </a>
             </Col>
 
@@ -266,7 +273,7 @@ const Sponsors = () => {
             >
               <a href="#pablo" target="_blank" rel="noopener noreferrer">
                 <img
-                  src={girlGeeks}
+                  src={netalla}
                   alt="girlGeeks-logo"
                   className={Styles.girlGeeks}
                 />
@@ -280,12 +287,12 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.gatsbyjs.org/"
+                href="#pablo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={gatsby}
+                  src={progate}
                   alt="gatsbyjs-logo"
                   className={Styles.gatsby}
                 />
@@ -297,12 +304,12 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.invisionapp.com/"
+                href="#pablo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={inVision}
+                  src={manya}
                   alt="inVision-logo"
                   className={Styles.inVision}
                 />
@@ -314,12 +321,12 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.jetbrains.com/"
+                href="#pablo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={jetBrains}
+                  src={sakhaGlobal}
                   alt="JetBrains-logo"
                   className={Styles.jetbrains}
                 />

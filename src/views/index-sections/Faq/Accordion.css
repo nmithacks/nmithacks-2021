@@ -82,6 +82,7 @@
   height: auto;
   transition-timing-function: ease-in;
   transition: all 0.5s;
+  font-size: 1.1rem;
 }
 
 .accordion-wrapper .accordion-item11 .accordion-panel p {

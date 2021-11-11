@@ -145,7 +145,7 @@ const ContactUs = () => {
               target="_blank"
               style={{ padding:'10px' }}
             >
-              <FontAwesomeIcon style={{ height:'35px' ,width:'35px' }} icon={["fab", "facebook"]} />
+              <FontAwesomeIcon style={{ height:'35px' ,width:'35px',color:'#4267B2' }} icon={["fab", "facebook"]} />
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip352725">
               Follow Us

@@ -12,6 +12,9 @@
   .text {
     font-size: 15px;
   }
+  .large_text{
+    font-size: 2.0em;
+  }
 }
 
 .under {
@@ -21,4 +24,8 @@
   background-color: #1C2C30;
   position: relative;
   top: -20px;
+}
+
+.large_text {
+  font-size: 3.5em;
 }
