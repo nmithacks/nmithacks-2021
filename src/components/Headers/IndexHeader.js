@@ -313,7 +313,7 @@ function IndexHeader() {
             <a
               target="_blank"
               style={{ color: "white", textDecoration: "none", backgroundColor:'#1C2C30' }}
-              href="https://calendar.google.com/event?action=TEMPLATE&tmeid=M2FlNmZqcnJtMTFqMGZraXBqbjQydnVsMWYgMjJiMGdzdjkwb3FlMDJhYzVqNGI1dWg0MmdAZw&tmsrc=22b0gsv90oqe02ac5j4b5uh42g%40group.calendar.google.com"
+              href="#pablo"
             >
               Dates to be announced
             </a>
