@@ -342,3 +342,9 @@ margin-bottom: 0px;
   4%, 100% {  text-shadow: none; transform: none; }
 }
 
+.non{
+  background-color: #1C2C30;
+  width: 550px;
+  height: 100%;
+  overflow: visible;
+}

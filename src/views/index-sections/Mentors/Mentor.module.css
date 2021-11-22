@@ -8,6 +8,7 @@
   padding-bottom: 300px;
   clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 93%);
   margin-top: -10px;
+  height: 100vh;
 }
 
 .card1 {
@@ -98,6 +99,8 @@
     clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 98%);
     margin-top: -50px;
   }
+
+  
 }
 
 @font-face {
@@ -122,43 +125,26 @@
 }
 
 .card9{
-  font-size: 1.5em;
-  font-weight: bold;
-  position: relative;
-  overflow: hidden;
-  margin: 10px;
-  width: 320px;
-  height: 370px;
-  border-radius: 15px;
-  color: #fff;
-  text-align: center;
-  line-height: 1.4em;
-  box-shadow: 2px 2px 10px rgb(68 68 68 / 66%);
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 2px;
- 
+  width: 300px;
+  height: 350px;
+  background: rgba(255, 255, 255, 0.10);
+  /* box-shadow: 0px 10px 50px 0 rgb(31 38 135 / 20%); */
+  border: 1px solid rgb(255 255 255 / 15%);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+	transform-style: preserve-3d;
+	transform: perspective(5000px);
+  position: absolute;
 }
 
-.card9 .background{
-  height: 100%;
-  width: 100%;
-  vertical-align: top;
-  opacity: 1;
-  -webkit-filter:  blur(15px);
-  filter: grayscale(150%) blur(15px);
-  transition: all 2s ease;
-  background-color: #141414;
-
-  /* z-index: -1; */
-}
 
 .card9 .card_inside{
   border-radius: 50%;
   position: absolute;
-  bottom: 55%;
+  bottom: 40%;
   left: 50%;
-  max-width: 160px;
-  height: 140px;
+  max-width: 180px;
+  height: 180px;
   opacity: 1;
   box-shadow: 3px 3px 20px rgb(0 0 0 / 50%);
   border: 2px solid hsla(0,0%,100%,.5);
@@ -167,7 +153,7 @@
 }
 
 .card9 h3 {
- 
+  font-size: 40px;
   position: absolute;
   font-family: "Archive",Arial,sans-serif;
   margin: 5px 0;
@@ -175,7 +161,17 @@
   color: #7AF6D1;
 }
 
+.card9 h2 {
+  margin-top: 40px;
+  font-size: 30px;
+  position: absolute;
+  font-family: "Archive",Arial,sans-serif;
+  font-weight: 200;
+  color: #7AF6D1;
+}
+
 .card9 figcaption {
+  text-align: center;
   width: 100%;
   padding: 15px 115px;
   position: absolute;
@@ -192,12 +188,6 @@
   background-color: white;
 }
 
-
-.card9:hover .background{
- /* height: 110%;
- width: 140%; */
- transform: scale(1.5);
-}
 
 /* .card9::after{
   content: '';
@@ -225,3 +215,68 @@
 		background-position: 0% 50%;
 	}
 } */
+
+.new_card{
+  height: 400px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(40px);
+  position: absolute;
+  margin: auto;
+/*   left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+  border-radius: 25px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+}
+
+.card_img {
+  align-content: center;
+  justify-content: center;
+  height: 220px;
+  width: 220px;
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  position: absolute;
+  margin: 30px auto 20px auto;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+}
+.card_img img {
+  height: 86%;
+  border-radius: 50%;
+  margin-left: 2.5%;
+  margin-top: 7%;
+}
+.desc {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 260px;
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 0;
+}
+.primary_text {
+  color: #d5d5d5;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  margin: 5px 0;
+}
+.secondary_text {
+  color: #d5d5d5;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
 
-import Cards from "../../../components/Cards/Cards";
+//import Cards from "../../../components/Cards/Cards";
 import styles from "./Team.module.css";
 
 const Team = () => {

@@ -9,7 +9,7 @@ import {
   // CardImg,
   // CardText
 } from "reactstrap";
-//import mOne from "../../../assets/img/kanirudh.jpg";
+// import mOne from "../../../assets/img/kanirudh.jpg";
 // import mTwo from "../../../assets/img/Manav.jpg";
 // import mThree from "../../../assets/img/mThree.jpeg";
 // import mFour from "../../../assets/img/vasanth.jpg";
@@ -34,24 +34,25 @@ const Mentors = () => {
     <div
       className={styles.sectionMentors}
       style={{
-        background: "#1C2C30"
+        background: "#1C2C30",
+        marginTop: '30px'
       }}
       id="Mentors-section"
     >
       <Container className=" pt-5">
         <p
           className={["section-bounties-header h1 ", styles.title].join(" ")}
-          style={{ color: "#7AF6D1" }}
+          style={{ color: "#7AF6D1", marginTop: '-40px' }}
         >
           Teams
         </p>
         <div className={styles.under}></div>
-        <p style={{color:'#7AF6D1',fontSize:'40px',marginTop:'80px',display:'inline'}}>Coming Soon...</p>
+        <p style={{color:'#7AF6D1',fontSize:'40px',marginTop:'80px',display:'inline',textTransform:'uppercase'}}>Coming Soon...</p>
 
         <Row style={{ textAlign: "center" }}>
           <Col>
-            <div className={ styles.container } data-aos="fade-up">
-              
+            <div className={styles.container} data-aos="fade-up">
+
               {/* <CardImg
                 top
                 width="100%"
@@ -88,21 +89,20 @@ const Mentors = () => {
                       </div>
                     </figcaption>
                   </div> */}
-                </div>
-              </Col>
-              <Col>
-             
-              {/* <div className={ styles.card9 }>
-                <img src={ mOne } alt='blur' className={ styles.background }/>
-                  <img src={ mOne } alt='ultra' className={ styles.card_inside } />
-                    <figcaption>
-                      <h3> name </h3>
-                      <div class="icons">
-                      </div>
-                    </figcaption>
-                  </div> */}
-               
-                {/* <Card className={styles.card2} data-aos="fade-up">
+            </div>
+          </Col>
+          <Col>
+            {/* <div className={styles.new_card}>
+              <div className={styles.card_img}>
+                <img src={mOne} alt="profile" />
+              </div>
+              <div className={styles.desc}>
+                <h6 className={styles.primary_text}>Name</h6>
+                <h6 className={styles.secondary_text}>Position</h6>
+              </div>
+            </div> */}
+
+            {/* <Card className={styles.card2} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -132,9 +132,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-              {/* <div className={ styles.card9 }>
+          </Col>
+          <Col>
+            {/* <div className={ styles.card9 }>
                 <img src={ mOne } alt='blur' className={ styles.background }/>
                   <img src={ mOne } alt='ultra' className={ styles.card_inside } />
                     <figcaption>
@@ -143,8 +143,8 @@ const Mentors = () => {
                       </div>
                     </figcaption>
                   </div> */}
-                
-                {/* <Card className={styles.card3} data-aos="fade-up">
+
+            {/* <Card className={styles.card3} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -173,11 +173,11 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-              
-                
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+
+
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -206,9 +206,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -237,9 +237,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -268,9 +268,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -299,9 +299,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -330,9 +330,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -361,9 +361,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -392,9 +392,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -423,9 +423,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -454,9 +454,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -485,9 +485,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -515,9 +515,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -546,9 +546,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -577,9 +577,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-              <Col>
-                {/* <Card className={styles.card4} data-aos="fade-up">
+          </Col>
+          <Col>
+            {/* <Card className={styles.card4} data-aos="fade-up">
                   <CardImg
                     top
                     width="100%"
@@ -608,9 +608,9 @@ const Mentors = () => {
                     </CardText>
                   </CardBody>
                 </Card> */}
-              </Col>
-            </Row>
-            {/* <Button
+          </Col>
+        </Row>
+        {/* <Button
           color=""
           size="lg"
           style={{
@@ -620,9 +620,9 @@ const Mentors = () => {
         >
           Become a Mentor!
         </Button> */}
-          </Container>
-        </div>
-        );
+      </Container>
+    </div>
+  );
 };
 
-        export default Mentors;
+export default Mentors;

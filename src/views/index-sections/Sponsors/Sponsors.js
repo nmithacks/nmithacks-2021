@@ -8,12 +8,12 @@ import { Container, Row, Col } from "reactstrap";
 // import matic from "../../../assets/img/Matic.png";
 // import fold from "../../../assets/img/fold.png";
 // import stickerMule from "../../../assets/img/sticker-mule-logo.png";
-import comviva from "./comviva.jpg"
-import idp from "./idp.jpg"
-import netalla from "./netalla.jpg"
-import progate from "./progate.jpg"
-import manya from "./manya.jpg"
-import sakhaGlobal from "./sakhaGlobal.jpg"
+import devfolio from "./Devfolio_Logo_Colored.png"
+import polygon from "./Polygon_Logo_Colored.png"
+import celo from "./Celo_Logo_Color.png"
+import tezos from "./Tezos_Logo_Colored.png"
+import filecoin from "./Filecoin_Coloured_White_Text.png"
+//import sakhaGlobal from "./sakhaGlobal.jpg"
 //import digitalOcean from "../../../assets/img/digitalOcean-logo.png";
 //import girlGeeks from "../../../assets/img/girlGeeks.png";
 //import jetBrains from "../../../assets/img/jetbrains_logo.png";
@@ -49,7 +49,7 @@ const Sponsors = () => {
     >
       <Container className=" pt-5">
         <p className={["section-bounties-header h1 ", Styles.title].join(" ")} style={{ color:' #1C2C30' }}>
-          Previous Sponsors
+          Sponsors
         </p>
         <div className={Styles.under}></div>
 
@@ -78,7 +78,7 @@ const Sponsors = () => {
                   className={[Styles.mainSponsors, Styles.github].join(" ")}
                 />
               </a>
-            </Col>
+            </Col> */}
             <Col
               data-aos="fade-up"
               lg={true}
@@ -95,7 +95,7 @@ const Sponsors = () => {
                   className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
                 />
               </a>
-            </Col> */}
+            </Col>
           </Row>
           {/* <div
             style={{
@@ -235,23 +235,7 @@ const Sponsors = () => {
             </Col>
           </Row> */}
           <Row>
-            <Col
-              data-aos="fade-up"
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
-              sm={true}
-            >
-              <a
-                href="#pablo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={comviva}
-                  alt="comviva-logo"
-                  className={Styles.digiOcean}
-                />
-              </a>
-            </Col>
+            
             <Col
               data-aos="fade-up"
               md={true}
@@ -262,7 +246,7 @@ const Sponsors = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={idp} alt="ieee-logo" className={Styles.ieee} />
+                <img src={polygon} alt="ieee-logo" className={Styles.ieee} style={{marginTop:'20px'}} />
               </a>
             </Col>
 
@@ -273,7 +257,7 @@ const Sponsors = () => {
             >
               <a href="#pablo" target="_blank" rel="noopener noreferrer">
                 <img
-                  src={netalla}
+                  src={celo}
                   alt="girlGeeks-logo"
                   className={Styles.girlGeeks}
                 />
@@ -290,9 +274,11 @@ const Sponsors = () => {
                 href="#pablo"
                 target="_blank"
                 rel="noopener noreferrer"
+               
               >
                 <img
-                  src={progate}
+                  style={{marginTop:'20px'}}
+                  src={tezos}
                   alt="gatsbyjs-logo"
                   className={Styles.gatsby}
                 />
@@ -309,13 +295,13 @@ const Sponsors = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={manya}
+                  src={filecoin}
                   alt="inVision-logo"
                   className={Styles.inVision}
                 />
               </a>
             </Col>
-            <Col
+            {/* <Col
               data-aos="fade-up"
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
@@ -331,7 +317,7 @@ const Sponsors = () => {
                   className={Styles.jetbrains}
                 />
               </a>
-            </Col>
+            </Col> */}
           </Row>
           {/* <Row>
             <Col
