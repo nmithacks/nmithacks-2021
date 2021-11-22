@@ -16,29 +16,42 @@ function IndexHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      let devfolioOptions = {
-        buttonSelector: "#devfolio-apply-now",
-         key: "hackbout"
-      };
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
 
-      let script = document.createElement("script");
-      script.src = "https://apply.devfolio.co";
-      document.head.append(script);
+  React.useEffect(() => {
+    // document.addEventListener("DOMContentLoaded", function () {
+    //   let devfolioOptions = {
+    //     buttonSelector: "#devfolio-apply-now",
+    //      key: "hackbout"
+    //   };
 
-      script.onload = function () {
-        new Devfolio(devfolioOptions);
-      };
+    //   let script = document.createElement("script");
+    //   script.src = "https://apply.devfolio.co";
+    //   document.head.append(script);
 
-      script.onerror = function () {
-        document
-          .querySelector(devfolioOptions.buttonSelector)
-          .addEventListener("click", function () {
-            window.location.href =
-              "https://devfolio.co/external-apply/" + devfolioOptions.key;
-          });
-      };
-    });
+    //   script.onload = function () {
+    //     new Devfolio(devfolioOptions);
+    //   };
+
+    //   script.onerror = function () {
+    //     document
+    //       .querySelector(devfolioOptions.buttonSelector)
+    //       .addEventListener("click", function () {
+    //         window.location.href =
+    //           "https://devfolio.co/external-apply/" + devfolioOptions.key;
+    //       });
+    //   };
+    // });
+
+
 
     var TWO_PI = Math.PI * 2;
     var HALF_PI = Math.PI / 2;
@@ -122,9 +135,9 @@ function IndexHeader() {
       context.beginPath();
       context.arc(this.path[0].x, this.path[0].y, 4, 0, TWO_PI);
       context.fill();
-     
+
       context.stroke();
-     
+
       context.restore();
     };
 
@@ -240,12 +253,12 @@ function IndexHeader() {
     <>
       <div className="page-header clear-filter back" filter-color="red" id="paint" >
         <div
-          className={ styles.back }
+          className={styles.back}
           ref={pageHeader}
-          
+
         >
 
-          
+
         </div>
         <Container className="" style={{ textAlign: "center" }}>
           <div className="text-center">
@@ -263,11 +276,11 @@ function IndexHeader() {
             </div> */}
             <h3
               className=""
-              style={{ color: "white", marginTop: "1%", fontSize: "1rem" , backgroundColor:'#1C2C30' }}
+              style={{ color: "white", marginTop: "1%", fontSize: "1rem", backgroundColor: '#1C2C30' }}
             >
               A  NMIT CSE Hackathon
             </h3>
-            <div
+            {/* <div
               style={{
                 textAlign: "center",
                 justifyContent: "center",
@@ -300,7 +313,13 @@ function IndexHeader() {
                 </svg>
                 Apply with Devfolio
               </button>
-            </div>
+            </div> */}
+            <div
+              className="apply-button"
+              data-hackathon-slug="nmit-hacks"
+              data-button-theme="light"
+              style={{height: '44px', width: '308px'}}
+            ></div>
           </div>
           <h3
             className={styles.text}
@@ -313,7 +332,7 @@ function IndexHeader() {
 
             <a
               target="_blank"
-              style={{ color: "white", textDecoration: "none", backgroundColor:'#1C2C30' }}
+              style={{ color: "white", textDecoration: "none", backgroundColor: '#1C2C30' }}
               href="#pablo"
             >
               Dates to be announced
@@ -326,12 +345,12 @@ function IndexHeader() {
             <i class="fas fa-map-marker-alt" style={{ marginRight: "1%" }}></i>{" "}
             <a
               href="https://goo.gl/maps/8wwXNWAup9Mw3puDA"
-              style={{ color: "white", textDecoration: "none", backgroundColor:'#1C2C30' }}
+              style={{ color: "white", textDecoration: "none", backgroundColor: '#1C2C30' }}
             >
               Nitte Meenakshi Institute of Technology, Bangalore
             </a>
           </h3>
-          
+
         </Container>
       </div>
     </>
