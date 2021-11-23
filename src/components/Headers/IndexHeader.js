@@ -30,7 +30,7 @@ function IndexHeader() {
     // document.addEventListener("DOMContentLoaded", function () {
     //   let devfolioOptions = {
     //     buttonSelector: "#devfolio-apply-now",
-    //      key: "hackbout"
+    //      key: "nmit-hacks"
     //   };
 
     //   let script = document.createElement("script");
@@ -335,7 +335,7 @@ function IndexHeader() {
               style={{ color: "white", textDecoration: "none", backgroundColor: '#1C2C30' }}
               href="#pablo"
             >
-              Dates to be announced
+              1st-3rd April 2022
             </a>
           </h3>
           <h3

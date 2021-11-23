@@ -9,7 +9,7 @@ import {
   // CardImg,
   // CardText
 } from "reactstrap";
-// import mOne from "../../../assets/img/kanirudh.jpg";
+//import mOne from "../../../assets/img/kanirudh.jpg";
 // import mTwo from "../../../assets/img/Manav.jpg";
 // import mThree from "../../../assets/img/mThree.jpeg";
 // import mFour from "../../../assets/img/vasanth.jpg";
@@ -26,7 +26,8 @@ import {
 // import mFifteen from "../../../assets/img/Vishwas.jpg";
 // import mSixteen from "../../../assets/img/Anand.jpeg";
 // import mSeventeen from "../../../assets/img/Kartik.jpg";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import '../ContactUs/IconsLib/IconLib';
 import styles from "./Mentor.module.css";
 
 const Mentors = () => {
@@ -53,6 +54,32 @@ const Mentors = () => {
           <Col>
             <div className={styles.container} data-aos="fade-up">
 
+              {/* <div className={styles.card_container}>
+                <div className={styles.inside}>
+                  <div className={styles.imgBx}>
+                    <img src={mOne} alt="alternate" />
+                  </div>
+                </div>
+                <div className={styles.content}>
+                  <div className={styles.contentBx}>
+                    <h3>Someone Famous<br /><span>Creative Designer</span></h3>
+                  </div>
+                  <div className={styles.iconspack}> */}
+
+
+                    {/* <div className={styles.icons}>
+                      <FontAwesomeIcon style={{ height: '35px', width: '35px', color: 'black' }} icon={["fab", "github"]} />
+                    </div>
+                    <div className={styles.icons}>
+                      <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#4267B2' }} icon={["fab", "facebook"]} />
+                    </div>
+                    <div className={styles.icons}>
+                      <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#e95950' }} icon={["fab", "instagram"]} />
+                    </div> */}
+
+                  {/* </div>
+                </div>
+              </div> */}
               {/* <CardImg
                 top
                 width="100%"
@@ -92,6 +119,32 @@ const Mentors = () => {
             </div>
           </Col>
           <Col>
+            {/* <div className={styles.card_container}>
+              <div className={styles.inside}>
+                <div className={styles.imgBx}>
+                  <img src={mOne} alt="alternate" />
+                </div>
+              </div>
+              <div className={styles.content}>
+                <div className={styles.contentBx}>
+                  <h3>Someone Famous<br /><span>Creative Designer</span></h3>
+                </div>
+                <div className={styles.iconspack}> */}
+
+
+                  {/* <div className={styles.icons}>
+                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: 'black' }} icon={["fab", "github"]} />
+                  </div>
+                  <div className={styles.icons}>
+                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#4267B2' }} icon={["fab", "facebook"]} />
+                  </div>
+                  <div className={styles.icons}>
+                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#e95950' }} icon={["fab", "instagram"]} />
+                  </div> */}
+
+                {/* </div>
+              </div>
+            </div> */}
             {/* <div className={styles.new_card}>
               <div className={styles.card_img}>
                 <img src={mOne} alt="profile" />
@@ -134,6 +187,32 @@ const Mentors = () => {
                 </Card> */}
           </Col>
           <Col>
+            {/* <div className={styles.card_container}>
+              <div className={styles.inside}>
+                <div className={styles.imgBx}>
+                  <img src={mOne} alt="alternate" />
+                </div>
+              </div>
+              <div className={styles.content}>
+                <div className={styles.contentBx}>
+                  <h3>Someone Famous<br /><span>Creative Designer</span></h3>
+                </div>
+                <div className={styles.iconspack}> */}
+
+{/* 
+                  <div className={styles.icons}>
+                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: 'black' }} icon={["fab", "github"]} />
+                  </div>
+                  <div className={styles.icons}>
+                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#4267B2' }} icon={["fab", "facebook"]} />
+                  </div>
+                  <div className={styles.icons}>
+                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#e95950' }} icon={["fab", "instagram"]} />
+                  </div> */}
+
+                {/* </div>
+              </div>
+            </div> */}
             {/* <div className={ styles.card9 }>
                 <img src={ mOne } alt='blur' className={ styles.background }/>
                   <img src={ mOne } alt='ultra' className={ styles.card_inside } />

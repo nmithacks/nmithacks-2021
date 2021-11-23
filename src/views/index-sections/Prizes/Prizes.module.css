@@ -117,17 +117,17 @@
 }
 
 .card2:hover .first::before{
-  content: 'INR 75,000';
+  content: 'INR 40,000';
   color: #1C2C30 ;
 }
 
 .card2:hover .second::before{
-  content: 'INR 50,000';
+  content: 'INR 20,000';
   color: #1C2C30 ;
 }
 
 .card2:hover .third::before{
-  content: 'INR 25,000';
+  content: 'INR 15,000';
   color: #1C2C30 ;
 }
 
