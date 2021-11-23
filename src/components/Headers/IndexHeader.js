@@ -7,7 +7,7 @@ import orphHand from "./logo-greyscale.svg";
 import "./header.css";
 //import Banner from "../../components/banner/banner";
 // reactstrap components
-import { Container, Button } from "reactstrap";
+import { Container } from "reactstrap";
 // core components
 
 //import Particles from "react-tsparticles";

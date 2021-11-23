@@ -26,7 +26,7 @@ import {
 // import mFifteen from "../../../assets/img/Vishwas.jpg";
 // import mSixteen from "../../../assets/img/Anand.jpeg";
 // import mSeventeen from "../../../assets/img/Kartik.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../ContactUs/IconsLib/IconLib';
 import styles from "./Mentor.module.css";
 
