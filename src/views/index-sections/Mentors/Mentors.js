@@ -2,7 +2,7 @@ import React from "react";
 import {
   Container,
   Row,
-  Col,
+  //Col,
   // Card,
   // CardBody,
   // CardTitle,
@@ -28,9 +28,60 @@ import {
 // import mSeventeen from "../../../assets/img/Kartik.jpg";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../ContactUs/IconsLib/IconLib';
+import Slider from "../../../components/Slider/Slider";
 import styles from "./Mentor.module.css";
 
 const Mentors = () => {
+  const slideData = [
+    {
+      index: 0,
+      headline: 'Some Name',
+      button: 'Coordinator',
+      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg'
+    },
+    {
+      index: 1,
+      headline: 'Some Name',
+      button: 'Coordinator',
+      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg'
+    },
+    {
+      index: 2,
+      headline: 'Some Name',
+      button: 'Coordinator',
+      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg'
+    },
+    {
+      index: 3,
+      headline: 'Some Name',
+      button: 'Coordinator',
+      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
+    },
+    {
+      index: 4,
+      headline: 'Some Name',
+      button: 'Coordinator',
+      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg'
+    },
+    {
+      index: 5,
+      headline: 'Some Name',
+      button: 'Coordinator',
+      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg'
+    },
+    {
+      index: 6,
+      headline: 'Some Name',
+      button: 'Coordinator',
+      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg'
+    },
+    {
+      index: 7,
+      headline: 'Some Name',
+      button: 'Coordinator',
+      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
+    }
+  ]
   return (
     <div
       className={styles.sectionMentors}
@@ -48,646 +99,10 @@ const Mentors = () => {
           Teams
         </p>
         <div className={styles.under}></div>
-        <p style={{color:'#7AF6D1',fontSize:'40px',marginTop:'80px',display:'inline',textTransform:'uppercase'}}>Coming Soon...</p>
+        {/* <p style={{color:'#7AF6D1',fontSize:'40px',marginTop:'80px',display:'inline',textTransform:'uppercase'}}>Coming Soon...</p> */}
 
         <Row style={{ textAlign: "center" }}>
-          <Col>
-            <div className={styles.container} data-aos="fade-up">
-
-              {/* <div className={styles.card_container}>
-                <div className={styles.inside}>
-                  <div className={styles.imgBx}>
-                    <img src={mOne} alt="alternate" />
-                  </div>
-                </div>
-                <div className={styles.content}>
-                  <div className={styles.contentBx}>
-                    <h3>Someone Famous<br /><span>Creative Designer</span></h3>
-                  </div>
-                  <div className={styles.iconspack}> */}
-
-
-                    {/* <div className={styles.icons}>
-                      <FontAwesomeIcon style={{ height: '35px', width: '35px', color: 'black' }} icon={["fab", "github"]} />
-                    </div>
-                    <div className={styles.icons}>
-                      <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#4267B2' }} icon={["fab", "facebook"]} />
-                    </div>
-                    <div className={styles.icons}>
-                      <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#e95950' }} icon={["fab", "instagram"]} />
-                    </div> */}
-
-                  {/* </div>
-                </div>
-              </div> */}
-              {/* <CardImg
-                top
-                width="100%"
-                src={mOne}
-                alt="Card image cap"
-                style={{ borderRadius: "8px 8px 0 0" }}
-              />
-              <CardBody className={styles.cbdy}>
-                <CardTitle>
-                  <h3>Kumar Anirudha</h3>
-                </CardTitle>
-                <CardText>
-                  <div style={{}}>
-                    <b>CEO @ Acyclic Labs</b>
-                  </div>
-                  <a
-                    href="https://in.linkedin.com/in/kranirudha"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i
-                      className="fab fa-linkedin "
-                      style={{ color: "black", fontSize: "30px" }}
-                    ></i>
-                  </a>
-                </CardText>
-              </CardBody> */}
-              {/* <div className={ styles.card9 }>
-                <img src={ mOne } alt='blur' className={ styles.background }/>
-                  <img src={ mOne } alt='ultra' className={ styles.card_inside } />
-                    <figcaption>
-                      <h3> name </h3>
-                      <div class="icons">
-                      </div>
-                    </figcaption>
-                  </div> */}
-            </div>
-          </Col>
-          <Col>
-            {/* <div className={styles.card_container}>
-              <div className={styles.inside}>
-                <div className={styles.imgBx}>
-                  <img src={mOne} alt="alternate" />
-                </div>
-              </div>
-              <div className={styles.content}>
-                <div className={styles.contentBx}>
-                  <h3>Someone Famous<br /><span>Creative Designer</span></h3>
-                </div>
-                <div className={styles.iconspack}> */}
-
-
-                  {/* <div className={styles.icons}>
-                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: 'black' }} icon={["fab", "github"]} />
-                  </div>
-                  <div className={styles.icons}>
-                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#4267B2' }} icon={["fab", "facebook"]} />
-                  </div>
-                  <div className={styles.icons}>
-                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#e95950' }} icon={["fab", "instagram"]} />
-                  </div> */}
-
-                {/* </div>
-              </div>
-            </div> */}
-            {/* <div className={styles.new_card}>
-              <div className={styles.card_img}>
-                <img src={mOne} alt="profile" />
-              </div>
-              <div className={styles.desc}>
-                <h6 className={styles.primary_text}>Name</h6>
-                <h6 className={styles.secondary_text}>Position</h6>
-              </div>
-            </div> */}
-
-            {/* <Card className={styles.card2} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mTwo}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Manav Ailawadi</h3>
-                    </CardTitle>
-                    <CardText>
-                      {" "}
-                      <div style={{}}>
-                        <b>CMO @ Blocumen Studios</b>
-                      </div>
-                      <a
-                        href="https://in.linkedin.com/in/manav-ailawadi-55138854"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin"
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <div className={styles.card_container}>
-              <div className={styles.inside}>
-                <div className={styles.imgBx}>
-                  <img src={mOne} alt="alternate" />
-                </div>
-              </div>
-              <div className={styles.content}>
-                <div className={styles.contentBx}>
-                  <h3>Someone Famous<br /><span>Creative Designer</span></h3>
-                </div>
-                <div className={styles.iconspack}> */}
-
-{/* 
-                  <div className={styles.icons}>
-                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: 'black' }} icon={["fab", "github"]} />
-                  </div>
-                  <div className={styles.icons}>
-                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#4267B2' }} icon={["fab", "facebook"]} />
-                  </div>
-                  <div className={styles.icons}>
-                    <FontAwesomeIcon style={{ height: '35px', width: '35px', color: '#e95950' }} icon={["fab", "instagram"]} />
-                  </div> */}
-
-                {/* </div>
-              </div>
-            </div> */}
-            {/* <div className={ styles.card9 }>
-                <img src={ mOne } alt='blur' className={ styles.background }/>
-                  <img src={ mOne } alt='ultra' className={ styles.card_inside } />
-                    <figcaption>
-                      <h3> name </h3>
-                      <div class="icons">
-                      </div>
-                    </figcaption>
-                  </div> */}
-
-            {/* <Card className={styles.card3} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mThree}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Pranjal Paliwal</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>Dev @ Headout</b>
-                      </div>
-                      <a
-                        href="https://in.linkedin.com/in/betterclever"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-
-
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mFour}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Nelson Vasanth J</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>Head @ Facebook Developer Circle - Bengaluru</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/nelson-vasanth-j-769827105/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mFive}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Karthikeyan NG</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>Director of Engineering @ Sequoia</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/intrepidkarthi/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mSix}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Himanshu Gupta</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>Founder @ Cosmoreal | Mobile AR Specialist</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/creativehims/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mTwelve}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Swayam Mittal</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>NLP | Speech synthesis</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/swayam-mittal-5b571768/n"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mTen}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Chandra Sekhar Nayak</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>Dev @ Lowe's India</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/chandra-sekhar-nayak-1aba6538/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mEight}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Sneha Sulegay</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>API Support Head @ MapmyIndia</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/sneha-sulegay-99bb49122/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mSeven}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Kalaivanan S</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>Associate Product Manager @ MapmyIndia</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/kalaivanan-sundaram-9253936a/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={meleven}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Rachana V</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>Developer Advocate at IBM India</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/rachanavishwanathula/?originalSubdomain=in"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mThiretten}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Abhitej Singh </h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b> Co-founder, Cosmos India</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/abhitejsingh23/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mNine}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Swathi P</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b> Product Owner @ Boeing India Pvt. Ltd.</b>
-                      </div>
-                      <a
-                        href="www.linkedin.com/in/swathi-pennapareddy-527346b0"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mFourteen}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Dr. Nagaraja</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b>
-                          {" "}
-                          Professor and Associate Dean @ R.V. College of Engineering
-                        </b>
-                      </div>
-                      <a href="#pablo" target="_blank" rel="noopener noreferrer">
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mFifteen}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Dr. Vishwas L</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b> Principal Architect @ Smarten Spaces </b>
-                      </div>
-                      <a
-                        href="https://in.linkedin.com/in/vishwaslakkundi"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mSixteen}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Anand Jagadeesh</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b> Programmer. Software Engineer at Dell EMC</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/anandjagadeesh/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
-          <Col>
-            {/* <Card className={styles.card4} data-aos="fade-up">
-                  <CardImg
-                    top
-                    width="100%"
-                    src={mSeventeen}
-                    alt="Card image cap"
-                    style={{ borderRadius: "8px 8px 0 0" }}
-                  />
-                  <CardBody className={styles.cbdy}>
-                    <CardTitle>
-                      <h3>Kartik Muralidharan</h3>
-                    </CardTitle>
-                    <CardText>
-                      <div style={{}}>
-                        <b> Scientist @ Innovation Labs, TCS</b>
-                      </div>
-                      <a
-                        href="https://www.linkedin.com/in/kartikmuralidharan/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fab fa-linkedin "
-                          style={{ color: "black", fontSize: "30px" }}
-                        ></i>
-                      </a>
-                    </CardText>
-                  </CardBody>
-                </Card> */}
-          </Col>
+          <Slider heading="Mentors" slides={slideData} />
         </Row>
         {/* <Button
           color=""
