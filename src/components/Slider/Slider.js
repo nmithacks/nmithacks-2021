@@ -38,7 +38,7 @@ class Slide extends React.Component {
     }
 
     render() {
-        const { src, button, headline, index } = this.props.slide
+        const { src, index } = this.props.slide
         const current = this.props.current
         let classNames = 'slide'
 
@@ -129,7 +129,7 @@ class Slider extends React.Component {
     }
 
     render() {
-        const { current, direction } = this.state
+        const { current } = this.state
         const { slides, heading } = this.props
         const headingId = `slider-heading__${heading.replace(/\s+/g, '-').toLowerCase()}`
         var wrapperTransform ;
