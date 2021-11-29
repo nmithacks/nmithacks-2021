@@ -28,60 +28,60 @@ import {
 // import mSeventeen from "../../../assets/img/Kartik.jpg";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../ContactUs/IconsLib/IconLib';
-import Slider from "../../../components/Slider/Slider";
+//import Slider from "../../../components/Slider/Slider";
 import styles from "./Mentor.module.css";
 
 const Mentors = () => {
-  const slideData = [
-    {
-      index: 0,
-      headline: 'Some Name',
-      button: 'Coordinator',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg'
-    },
-    {
-      index: 1,
-      headline: 'Some Name',
-      button: 'Coordinator',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg'
-    },
-    {
-      index: 2,
-      headline: 'Some Name',
-      button: 'Coordinator',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg'
-    },
-    {
-      index: 3,
-      headline: 'Some Name',
-      button: 'Coordinator',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
-    },
-    {
-      index: 4,
-      headline: 'Some Name',
-      button: 'Coordinator',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg'
-    },
-    {
-      index: 5,
-      headline: 'Some Name',
-      button: 'Coordinator',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg'
-    },
-    {
-      index: 6,
-      headline: 'Some Name',
-      button: 'Coordinator',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg'
-    },
-    {
-      index: 7,
-      headline: 'Some Name',
-      button: 'Coordinator',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
-    }
-  ]
+  // const slideData = [
+  //   {
+  //     index: 0,
+  //     headline: 'Some Name',
+  //     button: 'Coordinator',
+  //     src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg'
+  //   },
+  //   {
+  //     index: 1,
+  //     headline: 'Some Name',
+  //     button: 'Coordinator',
+  //     src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg'
+  //   },
+  //   {
+  //     index: 2,
+  //     headline: 'Some Name',
+  //     button: 'Coordinator',
+  //     src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg'
+  //   },
+  //   {
+  //     index: 3,
+  //     headline: 'Some Name',
+  //     button: 'Coordinator',
+  //     src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
+  //   },
+  //   {
+  //     index: 4,
+  //     headline: 'Some Name',
+  //     button: 'Coordinator',
+  //     src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg'
+  //   },
+  //   {
+  //     index: 5,
+  //     headline: 'Some Name',
+  //     button: 'Coordinator',
+  //     src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg'
+  //   },
+  //   {
+  //     index: 6,
+  //     headline: 'Some Name',
+  //     button: 'Coordinator',
+  //     src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg'
+  //   },
+  //   {
+  //     index: 7,
+  //     headline: 'Some Name',
+  //     button: 'Coordinator',
+  //     src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
+  //   }
+  // ]
   return (
     <div
       className={styles.sectionMentors}
@@ -99,10 +99,10 @@ const Mentors = () => {
           Teams
         </p>
         <div className={styles.under}></div>
-        {/* <p style={{color:'#7AF6D1',fontSize:'40px',marginTop:'80px',display:'inline',textTransform:'uppercase'}}>Coming Soon...</p> */}
+        <p style={{color:'#7AF6D1',fontSize:'40px',marginTop:'80px',display:'inline',textTransform:'capitalize'}}>Coming Soon...</p>
 
         <Row style={{ textAlign: "center" }}>
-          <Slider heading="Mentors" slides={slideData} />
+          {/* <Slider heading="Mentors" slides={slideData} /> */}
         </Row>
         {/* <Button
           color=""
