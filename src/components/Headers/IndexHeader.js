@@ -317,13 +317,13 @@ function IndexHeader() {
             <div
               className="apply-button"
               data-hackathon-slug="nmit-hacks"
-              data-button-theme="light"
+              data-button-theme="dark-inverted"
               style={{height: '44px', width: '308px'}}
             ></div>
           </div>
           <h3
             className={styles.text}
-            style={{ color: "white", marginBottom: "30px" }}
+            style={{ color: "white", marginBottom: "20px",marginTop:'20px' }}
           >
             <i
               className="fas fa-calendar-alt"
@@ -332,7 +332,7 @@ function IndexHeader() {
 
             <a
               target="_blank"
-              style={{ color: "white", textDecoration: "none", backgroundColor: '#1C2C30' }}
+              style={{ color: "white", textDecoration: "none", backgroundColor: '#1C2C30',marginLeft:'-10px' }}
               href="#pablo"
             >
               April 2022

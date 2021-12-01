@@ -242,7 +242,7 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="#pablo"
+                href="https://polygon.technology/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -255,7 +255,7 @@ const Sponsors = () => {
               md={true}
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
-              <a href="#pablo" target="_blank" rel="noopener noreferrer">
+              <a href="https://celo.org/" target="_blank" rel="noopener noreferrer">
                 <img
                   src={celo}
                   alt="girlGeeks-logo"
@@ -271,7 +271,7 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="#pablo"
+                href="https://tezos.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                
@@ -290,7 +290,7 @@ const Sponsors = () => {
               className={["mt-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="#pablo"
+                href="https://filecoin.io/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
