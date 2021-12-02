@@ -106,7 +106,7 @@ const ContactUs = () => {
             <Button
               className="btn-neutral btn-icon  text-center"
               color="twitter"
-              href="#"
+              href="https://twitter.com/NMIT_Hacks"
               id="tooltip86114138"
               size="lg"
               target="_blank"
@@ -123,7 +123,7 @@ const ContactUs = () => {
             <Button
               className="btn-neutral btn-icon  text-center"
               color="pink"
-              href="#"
+              href="https://www.instagram.com/nmit_hacks/"
               id="tooltip735272548"
               size="lg"
               target="_blank"
@@ -139,13 +139,29 @@ const ContactUs = () => {
             <Button
               className="btn-neutral btn-icon  text-center"
               color="blue"
-              href="#"
+              href="https://www.facebook.com/nmit.hacks.50"
               id="tooltip352725"
               size="lg"
               target="_blank"
               style={{ padding:'10px' }}
             >
               <FontAwesomeIcon style={{ height:'35px' ,width:'35px',color:'#4267B2' }} icon={["fab", "facebook"]} />
+            </Button>
+            <UncontrolledTooltip delay={0} target="tooltip352725">
+              Follow Us
+            </UncontrolledTooltip>
+          </div>
+          <div className="" style={{ margin: "auto 1%" }}>
+            <Button
+              className="btn-neutral btn-icon  text-center"
+              color="blue"
+              href="https://www.linkedin.com/in/nmit-hacks-8082531bb/"
+              id="tooltip352725"
+              size="lg"
+              target="_blank"
+              style={{ padding:'10px' }}
+            >
+              <FontAwesomeIcon style={{ height:'35px' ,width:'35px',color:'#4267B2' }} icon={["fab", "linkedin"]} />
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip352725">
               Follow Us

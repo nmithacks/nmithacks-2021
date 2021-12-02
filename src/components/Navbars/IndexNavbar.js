@@ -46,7 +46,7 @@ function IndexNavbar() {
     };
   });
 
-    
+
 
 
   return (
@@ -60,14 +60,14 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} expand="lg"  style={{ height: '60px', background:' #1C2C30' }}>
+      <Navbar className={"fixed-top " + navbarColor} expand="lg" style={{ height: '60px', background: ' #1C2C30' }}>
         <Container>
           <div className="navbar-translate">
             <NavbarBrand href="" id="navbar-brand">
               <img
                 src={logo1}
                 alt="Hackathon_logo"
-                style={{ height: "40px" ,width:'220px' }}
+                style={{ height: "40px", width: '220px' }}
               ></img>
             </NavbarBrand>
             <button
@@ -201,6 +201,25 @@ function IndexNavbar() {
                   onClick={e => {
                     e.preventDefault();
                     document.documentElement.classList.remove("nav-open");
+                    document.getElementById("sponsors-section").scrollIntoView({
+                      behavior: "smooth"
+                    });
+                  }}
+                >
+                  <h5
+                    style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
+                  >
+                    <b>Sponsors</b>
+                  </h5>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+
+                <NavLink
+                  href="#pablo"
+                  onClick={e => {
+                    e.preventDefault();
+                    document.documentElement.classList.remove("nav-open");
                     document.getElementById("Mentors-section").scrollIntoView({
                       behavior: "smooth"
                     });
@@ -219,7 +238,7 @@ function IndexNavbar() {
                   onClick={e => {
                     e.preventDefault();
                     document.documentElement.classList.remove("nav-open");
-                    document.getElementById("sponsors-section").scrollIntoView({
+                    document.getElementById("faq-section").scrollIntoView({
                       behavior: "smooth"
                     });
                   }}
@@ -227,29 +246,11 @@ function IndexNavbar() {
                   <h5
                     style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
                   >
-                    <b>Sponsors</b>
+                    <b>FAQ</b>
                   </h5>
                 </NavLink>
               </NavItem>
-            <NavItem>
-              <NavLink
-                href="#pablo"
-                onClick={e => {
-                  e.preventDefault();
-                  document.documentElement.classList.remove("nav-open");
-                  document.getElementById("faq-section").scrollIntoView({
-                    behavior: "smooth"
-                  });
-                }}
-              >
-                <h5
-                  style={{ color: "#A2F6DD", position: "relative", top: "5px" }}
-                >
-                  <b>FAQ</b>
-                </h5>
-              </NavLink>
-            </NavItem>
-              <NavItem>  
+              <NavItem>
                 <NavLink
                   href="#pablo"
                   onClick={e => {
@@ -269,7 +270,7 @@ function IndexNavbar() {
                   </h5>
                 </NavLink>
               </NavItem>
-              
+
             </Nav>
           </Collapse>
         </Container>

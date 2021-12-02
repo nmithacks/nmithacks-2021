@@ -335,7 +335,7 @@ function IndexHeader() {
               style={{ color: "white", textDecoration: "none", backgroundColor: '#1C2C30',marginLeft:'-10px' }}
               href="#pablo"
             >
-              April 2022
+              1st-3rd April 2022
             </a>
           </h3>
           <h3

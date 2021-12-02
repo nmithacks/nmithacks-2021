@@ -507,8 +507,8 @@
   }
 
   .inVision {
-    max-width: 60%;
-    max-height: 70%;
+    max-width: 80%;
+    max-height: 80%;
     position: relative;
     top: 10px;
   }
@@ -520,8 +520,8 @@
     top: 20px;
   }
   .girlGeeks {
-    max-width: 65%;
-    max-height: 65%;
+    max-width: 85%;
+    max-height: 85%;
     position: relative;
     top: 10px;
   }
