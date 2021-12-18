@@ -278,7 +278,7 @@ function IndexHeader() {
               className=""
               style={{ color: "white", marginTop: "1%", fontSize: "1rem", backgroundColor: '#1C2C30' }}
             >
-              A  NMIT CSE Hackathon
+              Hackathon by The Dept. of CSE,NMIT 
             </h3>
             {/* <div
               style={{
