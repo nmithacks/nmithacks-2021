@@ -8,7 +8,7 @@
   padding-bottom: 200px;
   clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 93%);
   margin-top: -10px;
-  height: 110vh;
+  height: 220vh;
 }
 
 .card1 {
@@ -258,7 +258,7 @@
 
 .card_container .content h3{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .card_container .content h3 span{
@@ -290,5 +290,30 @@
   padding: 6px;
   background-size: cover;
 }
+
+@media screen and ( max-width: 768px ){
+  .sectionMentors{
+    height: 100vh;
+    width: 100%;
+  }
+  .card_container{
+    display: none;
+  /* margin-top: 3.5rem;
+  width: 100px; */
+  }
+.card_container .inside{
+      width: 150px;
+      height: 100px;
+  }
+  .card_container .content h3{
+    font-size: 25px;
+  }
+  
+  .card_container .content h3 span{
+    font-size: 20px;
+  }
+  
+}
+
 
 

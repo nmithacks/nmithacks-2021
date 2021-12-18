@@ -98,9 +98,10 @@
   // =========================
   
   .slider {
+
 	--slide-size: 70vmin;
 	--slide-margin: 4vmin;
-	
+	display: none;
 	height: var(--slide-size);
 	margin: 0 auto;
 	position: relative;
@@ -381,6 +382,10 @@
 			// opacity: 0;
 			// z-index: 0;
 		}
+	  }
+	  .slider{
+		display: block;
+		margin-left: 40px;
 	  }
 	  .btn{
 		  margin-top: 90px;

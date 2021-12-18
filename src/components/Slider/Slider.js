@@ -38,7 +38,7 @@ class Slide extends React.Component {
     }
 
     render() {
-        const { src, index } = this.props.slide
+        const { src, index, headline } = this.props.slide
         const current = this.props.current
         let classNames = 'slide'
 
@@ -61,7 +61,7 @@ class Slide extends React.Component {
                     </div>
                     <div className="content">
                         <div className="contentBx">
-                            <h3>Someone Famous<br /><span>Creative Designer</span></h3>
+                            <h3>{headline}</h3>
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@ class Slider extends React.Component {
         else{
             wrapperTransform=
                 {
-                    'transform': `translateX(-${current * (100 / slides.length)}%)`
+                    'display': 'none'
                 }
         }
 
