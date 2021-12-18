@@ -234,7 +234,7 @@ const Mentors = () => {
         </Row>
         <Row>
         <Col>
-            <div style={{marginLeft:'380px'}}>
+            <div style={{marginLeft:'360px'}}>
             <div className={styles.card_container}>
               <div className={styles.inside}>
                 <div className={styles.imgBx}>
