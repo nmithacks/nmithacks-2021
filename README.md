@@ -1,4 +1,4 @@
-Single Page landing website for NMITHacks 2021 ©
+Single Page landing website for NMITHacks © 2021
 
 
 
