@@ -4,4 +4,4 @@ In this ever advancing age of Technology NMIT Hacks is an open hackathon where p
 
 
 
-Product certified by: © Creative Tim 2022  (https://www.creative-tim.com/?ref=nukr-github-readme)
+Product certified by: © Creative Tim 2022  (https://www.creative-tim.com)
