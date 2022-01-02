@@ -1,6 +1,6 @@
 /*eslint-disable*/
 import React from "react";
-import logo from "./Asset-6-grey.svg";
+//import logo from "./Asset-6-grey.svg";
 import '../../../node_modules/@fortawesome/react-fontawesome'
 import '../../views/index-sections/ContactUs/IconsLib/IconLib'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -17,17 +17,7 @@ function DarkFooter() {
           <Col></Col>
           <Col style={{ textAlign: "center" }}>
             <div style={{ textAlign: "center" }}>
-              <img
-                src={logo}
-                alt="white_logo"
-                style={{
-                  height: "320px",
-                  textAlign: "center",
-                  display: "block",
-                  margin: "-50px auto",
-                  marginBottom: '50px'
-                }}
-              ></img>
+             
               <p>
                 Made With{" "}
                 <span>

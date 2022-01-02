@@ -2,12 +2,7 @@ import React from "react";
 import {
   Container,
   Row,
-  Col,
-  // Card,
-  // CardBody,
-  // CardTitle,
-  // CardImg,
-  // CardText
+  Col
 } from "reactstrap";
 import mOne from "../../../components/Slider/Aditya_Vijaykumar-min.jpg";
 import mTwo from "../../../components/Slider/Onkar.jpg";
@@ -19,14 +14,6 @@ import mSeven from "../../../components/Slider/V_V_Sree_Harsha_1-min.jpg";
 import mEight from "../../../components/Slider/Vasudeva_S_1-min.jpeg";
 import mNine from "../../../components/Slider/Harshitha_K-min.jpg";
 import mTen from "../../../components/Slider/Harshitha_S_A_1-min.jpeg";
-// import meleven from "../../../assets/img/rachana.jpg";
-// import mTwelve from "../../../assets/img/swayam.jpg";
-// import mThiretten from "../../../assets/img/abhitej.jpg";
-// import mFourteen from "../../../assets/img/Nagaraja.jpg";
-// import mFifteen from "../../../assets/img/Vishwas.jpg";
-// import mSixteen from "../../../assets/img/Anand.jpeg";
-// import mSeventeen from "../../../assets/img/Kartik.jpg";
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../ContactUs/IconsLib/IconLib';
 import Slider from "../../../components/Slider/Slider";
 import styles from "./Mentor.module.css";
@@ -264,16 +251,6 @@ const Mentors = () => {
             </div>
           </Col>
         </Row>
-        {/* <Button
-          color=""
-          size="lg"
-          style={{
-            borderRadius: "20px",
-            backgroundImage: "linear-gradient(45deg, #27b574 0%, #24fe41 100%)"
-          }}
-        >
-          Become a Mentor!
-        </Button> */}
       </Container>
     </div>
   );

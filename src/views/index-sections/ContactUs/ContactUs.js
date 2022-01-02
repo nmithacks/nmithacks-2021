@@ -4,6 +4,7 @@ import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 import styles from "./Contact.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './IconsLib/IconLib'
+import logo from '../../../components/Footers/Asset-6-grey.svg'
 //import '../../../../node_modules/@fortawesome/react-fontawesome'
 
 
@@ -41,54 +42,25 @@ const ContactUs = () => {
 
                 ></img>
                 <br></br>
-                <p className={["pt-4", styles.text].join(" ")}>
-                  Nitte Meenakshi Institute of Technology, P.B.No.6429,
-                  Yelahanka, Bangalore 560064
-                </p>
               </a>
             </div>
           </Col>
           <Col>
             <div style={{ textAlign: "center" }}>
-              <span className={styles.icon}>
-                <i className="fas fa-phone img-fluid"></i>
-              </span>
-              <br></br>
-              <div className="pt-4">
-                {/* <p>
-                  <strong>Some Name :</strong> &nbsp;
-                  <a href="tel:9992288116">Number</a>
-                </p>
-                <p>
-                  {" "}
-                  <strong>Some Name : </strong> &nbsp;
-                  <a href="tel:9964217178">Number</a>
-                </p> */}
-              </div>
+            <img
+                src={logo}
+                alt="white_logo"
+                style={{
+                  height: "120px",
+                  textAlign: "center",
+                  display: "block",
+                  margin: "-50px auto",
+                  marginBottom: '50px'
+                }}
+              ></img>
             </div>
           </Col>
         </Row>
-        {/* <Row>
-          <Col>
-            <div style={{ textAlign: "center" }}>
-              <span className={styles.icon}>
-                <i className="fas fa-envelope img-fluid"></i>
-              </span>
-              <br></br>
-              <div>
-                <p className="text-center">
-                  <a
-                    href="mailto:support@hackbout.tech"
-                    target="_BLANK"
-                    rel="noopener noreferrer"
-                  >
-                    support@hackbout.tech
-                  </a>
-                </p>
-              </div>
-            </div>
-          </Col>
-        </Row> */}
         <Row>
           <Col>
             <p className=" h4 text-center">Follow Us</p>
@@ -112,7 +84,6 @@ const ContactUs = () => {
               target="_blank"
               style={{ padding:'10px' }}
             >
-              {/* <i className="fab fa-twitter" ></i> */}
               <FontAwesomeIcon style={{ height:'35px' ,width:'35px' }} icon={["fab", "twitter"]} />
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip86114138">
@@ -167,21 +138,6 @@ const ContactUs = () => {
               Follow Us
             </UncontrolledTooltip>
           </div>
-          {/* <div className="" style={{ margin: "auto 1%" }}>
-            <Button
-              className="btn-neutral btn-icon btn-round text-center"
-              color="#29a0da"
-              href="#"
-              id="tooltip735272532"
-              size="lg"
-              target="_blank"
-            >
-              <i className="fab fa-telegram" style={{ color: "#29a0da" }}></i>
-            </Button>
-            <UncontrolledTooltip delay={0} target="tooltip735272532">
-              Join Us
-            </UncontrolledTooltip>
-          </div> */}
         </div>
         <div
           style={{ textAlign: "center", marginTop: "30px", fontSize: "17px" }}
