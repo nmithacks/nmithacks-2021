@@ -1,5 +1,5 @@
-Single Page landing website for NMITHacks © 2021
+Single Page landing website for © NMITHacks 2022
 
 
 
-Copyright 2021 Creative Tim (https://www.creative-tim.com/?ref=nukr-github-readme)
+Product certified by: © Creative Tim 2022  (https://www.creative-tim.com/?ref=nukr-github-readme)
