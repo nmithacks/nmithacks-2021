@@ -8,7 +8,7 @@ import mOne from "../../../components/Slider/Aditya_Vijaykumar-min.jpg";
 import mTwo from "../../../components/Slider/Onkar.jpg";
 import mThree from "../../../components/Slider/Bhargav.jpg";
 import mFour from "../../../components/Slider/Ekeswar_Reddy-min.jpg";
-import mFive from "../../../components/Slider/Archita_Bhatnagar-min.jpeg";
+import mFive from "../../../components/Slider/Madhumita.jpg";
 import mSix from "../../../components/Slider/Tejashree_Krishna_Murthy-min.jpg";
 import mSeven from "../../../components/Slider/V_V_Sree_Harsha_1-min.jpg";
 import mEight from "../../../components/Slider/Vasudeva_S_1-min.jpeg";
@@ -47,7 +47,7 @@ const Mentors = () => {
     },
     {
       index: 4,
-      headline: 'Architha Bhatnagar',
+      headline: 'Madhumitha',
       button: 'Coordinator',
       src: mFive
     },
@@ -171,7 +171,7 @@ const Mentors = () => {
               </div>
               <div className={styles.content}>
                 <div className={styles.contentBx}>
-                  <h3>Archita Bhatnagar</h3>
+                  <h3>Madhumitha</h3>
                 </div>
               </div>
             </div>

@@ -7,7 +7,7 @@ import polygon from "./Polygon_Logo_Colored.png"
 import celo from "./Celo_Logo_Color.png"
 import tezos from "./Tezos_Logo_Colored.png"
 import filecoin from "./Filecoin_Coloured_White_Text.png"
-
+import newton from "../../../assets/img/Logo2.jpeg"
 
 import Styles from "./Sponsors.module.css";
 
@@ -39,6 +39,24 @@ const Sponsors = () => {
                 <img
                   src={devfolio}
                   alt="devfolio-logo"
+                  className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
+                />
+              </a>
+            </Col>
+            <Col
+              data-aos="fade-up"
+              lg={true}
+              className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.newtonschool.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={newton}
+                  alt="newton-logo"
+                  style={{ top:'20px'}}
                   className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
                 />
               </a>
