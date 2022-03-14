@@ -8,7 +8,7 @@ import celo from "./Celo_Logo_Color.png"
 import tezos from "./Tezos_Logo_Colored.png"
 import filecoin from "./Filecoin_Coloured_White_Text.png"
 import newton from "../../../assets/img/Logo2.jpeg"
-
+import task from "./taskade-logo.png";
 import Styles from "./Sponsors.module.css";
 
 const Sponsors = () => {
@@ -125,6 +125,25 @@ const Sponsors = () => {
               >
                 <img
                   src={filecoin}
+                  alt="inVision-logo"
+                  className={Styles.inVision}
+                />
+              </a>
+            </Col>
+          </Row>
+          <Row>
+          <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.taskade.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={task}
                   alt="inVision-logo"
                   className={Styles.inVision}
                 />
