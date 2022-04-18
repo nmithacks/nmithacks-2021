@@ -10,7 +10,7 @@ import filecoin from "./Filecoin_Coloured_White_Text.png"
 import newton from "../../../assets/img/Logo2.jpeg"
 import task from "./taskade-logo.png";
 import Styles from "./Sponsors.module.css";
-
+import cape from './image001.png';
 const Sponsors = () => {
   return (
     <div
@@ -144,8 +144,29 @@ const Sponsors = () => {
               >
                 <img
                   src={task}
-                  alt="inVision-logo"
+                  alt="taskade-logo"
                   className={Styles.inVision}
+                  
+                />
+              </a>
+            </Col>
+          </Row>
+          <Row>
+          <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.capgemini.com/in-en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={cape}
+                  alt="capegemini-logo"
+                  className={Styles.inVision}
+                  style={{height:'110px',width:'200px'}}
                 />
               </a>
             </Col>
