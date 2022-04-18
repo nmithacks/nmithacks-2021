@@ -62,7 +62,26 @@ const Sponsors = () => {
               </a>
             </Col>
           </Row>
-          
+          <Row>
+          <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.capgemini.com/in-en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={cape}
+                  alt="capegemini-logo"
+                  className={Styles.inVision}
+                  style={{height:'110px',width:'200px'}}
+                />
+              </a>
+            </Col>
+          </Row>
           <Row>
             
             <Col
@@ -151,26 +170,7 @@ const Sponsors = () => {
               </a>
             </Col>
           </Row>
-          <Row>
-          <Col
-              data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
-            >
-              <a
-                href="https://www.capgemini.com/in-en/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={cape}
-                  alt="capegemini-logo"
-                  className={Styles.inVision}
-                  style={{height:'110px',width:'200px'}}
-                />
-              </a>
-            </Col>
-          </Row>
+          
         </div>
       </Container>
     </div>
