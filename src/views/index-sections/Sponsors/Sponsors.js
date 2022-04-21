@@ -25,6 +25,26 @@ const Sponsors = () => {
         <div className={Styles.under}></div>
 
         <div className="text-center">
+        <Row>
+          <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.capgemini.com/in-en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={cape}
+                  alt="capegemini-logo"
+                  className={Styles.inVision}
+                  style={{height:'220px',width:'320px'}}
+                />
+              </a>
+            </Col>
+          </Row>
           <Row>
             <Col
               data-aos="fade-up"
@@ -43,47 +63,7 @@ const Sponsors = () => {
                 />
               </a>
             </Col>
-            <Col
-              data-aos="fade-up"
-              lg={true}
-              className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
-            >
-              <a
-                href="https://www.newtonschool.co/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={newton}
-                  alt="newton-logo"
-                  style={{ top:'20px'}}
-                  className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
-                />
-              </a>
-            </Col>
-          </Row>
-          <Row>
-          <Col
-              data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
-            >
-              <a
-                href="https://www.capgemini.com/in-en/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={cape}
-                  alt="capegemini-logo"
-                  className={Styles.inVision}
-                  style={{height:'110px',width:'200px'}}
-                />
-              </a>
-            </Col>
-          </Row>
-          <Row>
-            
+             
             <Col
               data-aos="fade-up"
               md={true}
@@ -97,6 +77,28 @@ const Sponsors = () => {
                 <img src={polygon} alt="ieee-logo" className={Styles.ieee} style={{marginTop:'20px'}} />
               </a>
             </Col>
+          </Row>
+          
+          <Row>
+          <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.taskade.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={task}
+                  alt="taskade-logo"
+                  className={Styles.inVision}
+                  
+                />
+              </a>
+            </Col>
+           
 
             <Col
               data-aos="fade-up"
@@ -151,21 +153,21 @@ const Sponsors = () => {
             </Col>
           </Row>
           <Row>
-          <Col
+            <Col
               data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+              lg={true}
+              className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
             >
               <a
-                href="https://www.taskade.com/"
+                href="https://www.newtonschool.co/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={task}
-                  alt="taskade-logo"
-                  className={Styles.inVision}
-                  
+                  src={newton}
+                  alt="newton-logo"
+                  style={{ top:'20px',height:'250px',width:'400px'}}
+                  className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
                 />
               </a>
             </Col>
