@@ -10,7 +10,7 @@ import filecoin from "./Filecoin_Coloured_White_Text.png"
 import newton from "../../../assets/img/Logo2.jpeg"
 import task from "./taskade-logo.png";
 import Styles from "./Sponsors.module.css";
-import cape from './image001.png';
+import cape from './Capgemini_Logo_Color_RGB.svg';
 const Sponsors = () => {
   return (
     <div
@@ -40,7 +40,7 @@ const Sponsors = () => {
                   src={cape}
                   alt="capegemini-logo"
                   className={Styles.inVision}
-                  style={{height:'220px',width:'320px'}}
+                  style={{height:'320px',width:'420px',top:'70px'}}
                 />
               </a>
             </Col>
@@ -166,7 +166,7 @@ const Sponsors = () => {
                 <img
                   src={newton}
                   alt="newton-logo"
-                  style={{ top:'20px',height:'250px',width:'400px'}}
+                  style={{ top:'20px',height:'170px',width:'350px'}}
                   className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
                 />
               </a>
