@@ -11,6 +11,8 @@ import newton from "../../../assets/img/Logo2.jpeg"
 import task from "./taskade-logo.png";
 import Styles from "./Sponsors.module.css";
 import cape from './Capgemini_Logo_Color_RGB.svg';
+import fly from './Circular_logo.png';
+import sakha from './Sakha-Global.png';
 const Sponsors = () => {
   return (
     <div
@@ -42,6 +44,40 @@ const Sponsors = () => {
                   className={Styles.inVision}
                   style={{height:'320px',width:'420px',top:'70px'}}
                 />
+              </a>
+            </Col>
+          </Row>
+          <Row>
+            <Col
+              data-aos="fade-up"
+              lg={true}
+              className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://flycamp.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={fly}
+                  alt="devfolio-logo"
+                  className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
+                  style={{height:'180px',width:'220px'}}
+                />
+              </a>
+            </Col>
+             
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.sakhaglobal.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={sakha} alt="ieee-logo" className={Styles.ieee} style={{height:'180px',width:'370px'}} />
               </a>
             </Col>
           </Row>
