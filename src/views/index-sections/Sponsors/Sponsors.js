@@ -48,6 +48,19 @@ const Sponsors = () => {
             </Col>
           </Row>
           <Row>
+          <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://www.sakhaglobal.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={sakha} alt="ieee-logo" className={Styles.ieee} style={{height:'180px',width:'370px'}} />
+              </a>
+            </Col>
             <Col
               data-aos="fade-up"
               lg={true}
@@ -67,19 +80,6 @@ const Sponsors = () => {
               </a>
             </Col>
              
-            <Col
-              data-aos="fade-up"
-              md={true}
-              className={["mt-5 text-center", Styles.sponsors].join(" ")}
-            >
-              <a
-                href="https://www.sakhaglobal.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={sakha} alt="ieee-logo" className={Styles.ieee} style={{height:'180px',width:'370px'}} />
-              </a>
-            </Col>
           </Row>
           <Row>
             <Col
