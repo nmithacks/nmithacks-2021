@@ -13,6 +13,9 @@ import Styles from "./Sponsors.module.css";
 import cape from './Capgemini_Logo_Color_RGB.svg';
 import fly from './Circular_logo.png';
 import sakha from './Sakha-Global.png';
+import cert from './GiveMyCertificate.png';
+import int from './InterviewBuddy_Logo_White.png';
+import aops from './AoPS_Main_Logo.png';
 const Sponsors = () => {
   return (
     <div
@@ -114,6 +117,40 @@ const Sponsors = () => {
               </a>
             </Col>
           </Row>
+          <Row>
+            <Col
+              data-aos="fade-up"
+              lg={true}
+              className={["p-3 mb-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://interviewbuddy.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={int}
+                  alt="devfolio-logo"
+                  style={{height:'180px',width:'420px'}}
+                  className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
+                />
+              </a>
+            </Col>
+             
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://artofproblemsolving.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={aops} alt="ieee-logo" className={Styles.ieee}  style={{height:'180px',width:'420px'}} />
+              </a>
+            </Col>
+          </Row>
           
           <Row>
           <Col
@@ -204,6 +241,23 @@ const Sponsors = () => {
                   alt="newton-logo"
                   style={{ top:'20px',height:'170px',width:'350px'}}
                   className={[Styles.mainSponsors, Styles.devfolio].join(" ")}
+                />
+              </a>
+            </Col>
+            <Col
+              data-aos="fade-up"
+              md={true}
+              className={["mt-5 text-center", Styles.sponsors].join(" ")}
+            >
+              <a
+                href="https://givemycertificate.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={cert}
+                  alt="inVision-logo"
+                  className={Styles.inVision}
                 />
               </a>
             </Col>
