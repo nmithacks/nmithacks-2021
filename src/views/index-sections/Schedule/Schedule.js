@@ -91,7 +91,7 @@ const Schedule = () => {
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <div style={{ float: "left" }}>
-                  <b>10:00 AM</b>
+                  <b>9:00 AM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Reporting and Registration</b>
@@ -118,7 +118,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>12:00 PM to 12:45 PM</b>
+                  <b>1:00 PM to 1:45 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Lunch</b>
@@ -145,7 +145,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>8:00 PM - 8:45 PM</b>
+                  <b>8:15 PM - 9:00 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Dinner</b>
@@ -206,7 +206,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>7:30 AM - 9:00 AM</b>
+                  <b>7:30 AM - 8:30 AM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Breakfast</b>
@@ -237,7 +237,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>12:00 PM - 1:00 PM</b>
+                  <b>12:15 PM - 1:00 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Lunch </b>
@@ -246,13 +246,17 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>4:00 PM - 5:00 PM</b>
+                  <b>4:00 PM - 6:00 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
-                  <b>Final Judging Round</b>
+                  <b>Final Judging Round, Closing Ceremony and</b>
+                  <br></br>
+                  <b></b>
+                  {/* <br></br> */}
+                  <b style={{ float: "right" }}>Prize Distribution </b>
                 </div>
               </li>
-              <li className="list-group-item">
+              {/* <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
                   <b>5:00 PM - 6:00 PM</b>
@@ -260,20 +264,20 @@ const Schedule = () => {
                 <div style={{ float: "right" }}>
                   <b>Closing Ceremony and Prize Distribution</b>
                 </div>
-              </li>
-              <li className="list-group-item">
-                {" "}
-                <div style={{ float: "left" }}>
+              </li> */}
+              {/* <li className="list-group-item"> */}
+                {/* {" "} */}
+                {/* <div style={{ float: "left" }}>
                   <b>6:00 PM</b>
-                </div>
-                <div style={{ float: "right" }}>
-                  <b>Afterparty!!</b>
+                </div> */}
+                {/* <div style={{ float: "right" }}> */}
+                  {/* <b>Afterparty!!</b> */}
                   {/* <br></br>
                   <b>+</b>
                   <br></br>
                   <b style={{ float: "right" }}>Prize Distribution </b> */}
-                </div>
-              </li>
+                {/* </div> */}
+              {/* </li> */}
             </ul>
           </TabPane>
         </TabContent>
