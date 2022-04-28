@@ -118,7 +118,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>1:30 PM to 2:15 PM</b>
+                  <b>12:00 PM to 12:45 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Lunch</b>
@@ -127,7 +127,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>5:30 PM - 6:00 PM</b>
+                  <b>4:30 PM - 5:00 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Snacks</b>
@@ -145,7 +145,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>8:30 PM - 9:15 PM</b>
+                  <b>8:00 PM - 8:45 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Dinner</b>
@@ -206,7 +206,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>8:00 AM - 9:00 AM</b>
+                  <b>7:30 AM - 9:00 AM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Breakfast</b>
@@ -237,7 +237,7 @@ const Schedule = () => {
               <li className="list-group-item">
                 {" "}
                 <div style={{ float: "left" }}>
-                  <b>2:30 PM - 3:10 PM</b>
+                  <b>12:00 PM - 1:00 PM</b>
                 </div>
                 <div style={{ float: "right" }}>
                   <b>Lunch </b>
